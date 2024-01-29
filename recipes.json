@@ -2,20 +2,20 @@
     {
         "Name": "Sugar Cookies",
         "Ingredients": [
-            "Butter",
-            "Sugar",
-            "Flour"
+            "butter",
+            "sugar",
+            "flour"
         ],
         "Link": "https://bellyfull.net/easy-sugar-cookie-recipe/"
     },
     {
         "Name": "Scrambled Eggs",
         "Ingredients": [
-            "Eggs",
-            "Milk",
-            "Butter",
-            "Salt",
-            "Pepper"
+            "eggs",
+            "milk",
+            "butter",
+            "salt",
+            "pepper"
         ],
         "Link": "https://www.incredibleegg.org/recipes/basic-scrambled-eggs/"
     }
