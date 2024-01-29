@@ -8,9 +8,11 @@ userInput  = ["butter"]
 # recipe list that contains the ingredients given
 recipesList = []
 
-for i in file:
-    test = i["Ingredients"]
-    if all(element in test for element in userInput):
-        recipesList.append(i["Name"])
+def recipeSearcher(userInput):
+    for i in file:
+        test = i["Ingredients"]
+        if all(element in test for element in userInput):
+            recipesList.append(i["Name"])
 
+recipeSearcher(userInput)
 print(recipesList)
