@@ -1,18 +1,19 @@
 import json
 
+# Create a new recipe to add (( EDIT THESE ))
+NAME = "Sugar Cookies"
+INGREDIENTS = ["butter", "sugar", "flour"]
+LINK = "https://bellyfull.net/easy-sugar-cookie-recipe/"
+
 
 def main():
+
     # Create recipes list
     recipes = []
 
     # Open recipes.json and read it to recipes list
     with open("recipes.json", "r") as file:
         recipes = json.load(file)
-
-    # Create a new recipe to add (( EDIT THESE ))
-    NAME = "Sugar Cookies"
-    INGREDIENTS = ["butter", "sugar", "flour"]
-    LINK = "https://bellyfull.net/easy-sugar-cookie-recipe/"
 
     # Create dictionary for the new recipe
     new_recipe = {"Name": NAME.title(),
