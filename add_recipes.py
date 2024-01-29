@@ -10,7 +10,7 @@ def main():
         recipes = json.load(file)
 
     # Create new recipe to add (( EDIT THESE ))
-    name = "Sugar Cookie"
+    name = "Sugar Cookies"
     ingredients = ["butter", "sugar", "flour"]
     link = "https://bellyfull.net/easy-sugar-cookie-recipe/"
 
