@@ -1,2 +1,2 @@
-# RecipeGenerator test 12
+# RecipeGenerator
 test eric
