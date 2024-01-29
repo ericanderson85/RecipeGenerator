@@ -9,20 +9,20 @@ def main():
     with open("recipes.json", "r") as file:
         recipes = json.load(file)
 
-    # Create new recipe to add (( EDIT THESE ))
-    name = "Sugar Cookies"
-    ingredients = ["butter", "sugar", "flour"]
-    link = "https://bellyfull.net/easy-sugar-cookie-recipe/"
+    # Create a new recipe to add (( EDIT THESE ))
+    NAME = "Sugar Cookies"
+    INGREDIENTS = ["butter", "sugar", "flour"]
+    LINK = "https://bellyfull.net/easy-sugar-cookie-recipe/"
 
-    # Create dictionary for new recipe
-    new_recipe = {"Name": name.title(),
-                  "Ingredients": [ingredient.lower() for ingredient in ingredients],
-                  "Link": link}
+    # Create dictionary for the new recipe
+    new_recipe = {"Name": NAME.title(),
+                  "Ingredients": [ingredient.lower() for ingredient in INGREDIENTS],
+                  "Link": LINK}
 
-    # Make sure the name isn't already in recipes
+    # Make sure the name isn't already used in recipes
     for r in recipes:
-        if r["Name"] == name:
-            print(f"{name} already in recipes")
+        if r["Name"] == NAME:
+            print(f"{NAME} already in recipes")
             return
 
     # Append new recipe to recipes list
@@ -32,7 +32,7 @@ def main():
         # Update recipes.json
         json.dump(recipes, file)
 
-    print(f"Added {name} to recipes")
+    print(f"Added {NAME} to recipes")
 
 
 if __name__ == "__main__":
