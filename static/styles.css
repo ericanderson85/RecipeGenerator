@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin: 0px;
+}
+
+body,
+html {
+    height: 90%;
+    background-color: #FAF3E0;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    display: block;
+    text-align: center;
+    font-size: 5vw;
+    color: #1E212D;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: #B68973;
+    text-decoration-thickness: 0.6vw;
+    padding: 2.5vw 0px 1.5vw;
+}
+
+h1 u:after,
+u:before {
+    /* Extends underline */
+    content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+}
+
+#form {
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+    background-color: #EABF9F;
+    padding: 0.8vw;
+    border-radius: 40px;
+}
+
+.text-box,
+.button {
+    border: none;
+    box-sizing: border-box;
+    font-size: 2.5vw;
+    color: #1E212D;
+}
+
+.text-box {
+    width: 80%;
+    padding-left: 3%;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    outline-width: 0;
+}
+
+.button {
+    width: 21%;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: #B68973;
+}
+
+.ingredients {
+    width: 50%;
+    height: 70%;
+    margin-left: 25%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    align-content: flex-start;
+}
+
+.ingredient {
+    text-align: end;
+    font-size: 2.5vw;
+    color: #1E212D;
+    padding: 3px 0px 0px 30px;
+}
