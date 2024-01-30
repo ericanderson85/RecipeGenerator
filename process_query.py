@@ -1,28 +1,31 @@
 import json
-# gets recipes data from json file
-with open("recipes.json", "r") as file:
-    file = json.load(file)
-#TODO user input is set for now, will work on getting from website
-userInput  = ["flour", "butter", "sugar"]
 
-# recipe list that contains the ingredients given
-recipesList = []
+# Reads recipes from json
+with open("recipes.json", "r") as all_recipes:
+    all_recipes = json.load(all_recipes)
+# TODO User input is set for now, will work on getting from website
+INPUT = ["flour", "butter", "sugar"]
 
-# list with only recipes that can be made
 
-possibleRecipes = []
+# List of recipes that can be made
+possible_recipes = []
+# List of recipes that contain an inputted ingrendient
+recipe_search_list = []
 
-def recipeSearcher(userInput):
-    for i in file:
-        test = i["Ingredients"]
-        if any(element in test for element in userInput):
-            recipesList.append(i["Name"])
-# only includes recipes that can be made with current ingredients
-def possibleRecipeGen(userInput):
-    for i in file:
-        test = i["Ingredients"]
-        if all(element in test for element in userInput):
-            possibleRecipes.append(i["Name"])
 
-possibleRecipeGen(userInput)
-print(possibleRecipes)
+# Generates recipes that can be made with inputted ingredients
+def possible_recipes(user_input):
+    for recipe in all_recipes:
+        if all(element in recipe["Ingredients"] for element in user_input):
+            possible_recipes.append(recipe["Name"])
+
+
+# Searches for recipes that include an inputted ingredient
+def recipe_search(user_input):
+    for recipe in all_recipes:
+        if any(element in recipe["Ingredients"] for element in user_input):
+            recipe_search_list.append(recipe["Name"])
+
+
+possible_recipes(INPUT)
+print(possible_recipes)
