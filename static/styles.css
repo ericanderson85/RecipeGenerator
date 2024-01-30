@@ -2,8 +2,10 @@
 
 :root {
     --cream: #FAF3E0;
+    --light-cream: #f7f3e8;
     --light-brown: #EABF9F;
     --dark-brown: #B68973;
+    --red: #da6e6e;
     --black: #1E212D;
 }
 
@@ -54,14 +56,17 @@ u:before {
     box-sizing: border-box;
     font-size: 2vw;
     color: var(--black);
+    border: .1vw solid var(--black);
 }
 
 .text-box {
+    background-color: var(--light-cream);
     width: 80%;
     padding-left: 3%;
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
     outline-width: 0;
+    border-right: none;
 }
 
 .button {
@@ -69,6 +74,18 @@ u:before {
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
     background-color: var(--dark-brown);
+}
+
+.submit {
+    margin-left: 2vw;
+    width: 14vw;
+    color: var(--black);
+    font-size: 2vw;
+    display: block;
+    background-color: var(--red);
+    border: .2vw solid var(--black);
+    padding: 0px .5vw;
+    border-radius: 40px;
 }
 
 .ingredients {
@@ -89,4 +106,8 @@ u:before {
     font-size: 2vw;
     color: var(--black);
     padding: 3px 0px 0px 30px;
+}
+
+.container {
+    display: inline-flex;
 }
