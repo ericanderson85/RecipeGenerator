@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
+:root {
+    --cream: #FAF3E0;
+    --light-brown: #EABF9F;
+    --dark-brown: #B68973;
+    --black: #1E212D;
+}
+
 * {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -8,8 +15,8 @@
 
 body,
 html {
-    height: 90%;
-    background-color: #FAF3E0;
+    height: 100%;
+    background-color: var(--cream);
     display: flex;
     flex-direction: column;
 }
@@ -17,12 +24,12 @@ html {
 .title {
     display: block;
     text-align: center;
-    font-size: 5vw;
-    color: #1E212D;
+    font-size: 4vw;
+    color: var(--black);
     font-weight: 600;
     text-decoration: underline;
-    text-decoration-color: #B68973;
-    text-decoration-thickness: 0.6vw;
+    text-decoration-color: var(--dark-brown);
+    text-decoration-thickness: 0.4vw;
     padding: 2.5vw 0px 1.5vw;
 }
 
@@ -36,8 +43,8 @@ u:before {
     display: flex;
     width: 50%;
     margin-left: 25%;
-    background-color: #EABF9F;
-    padding: 0.8vw;
+    background-color: var(--light-brown);
+    padding: 0.4vw;
     border-radius: 40px;
 }
 
@@ -45,8 +52,8 @@ u:before {
 .button {
     border: none;
     box-sizing: border-box;
-    font-size: 2.5vw;
-    color: #1E212D;
+    font-size: 2vw;
+    color: var(--black);
 }
 
 .text-box {
@@ -61,12 +68,13 @@ u:before {
     width: 21%;
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
-    background-color: #B68973;
+    background-color: var(--dark-brown);
 }
 
 .ingredients {
     width: 50%;
-    height: 70%;
+    height: 60%;
+    min-height: 20vw;
     margin-left: 25%;
     display: flex;
     justify-content: flex-start;
@@ -78,7 +86,7 @@ u:before {
 
 .ingredient {
     text-align: end;
-    font-size: 2.5vw;
-    color: #1E212D;
+    font-size: 2vw;
+    color: var(--black);
     padding: 3px 0px 0px 30px;
 }
