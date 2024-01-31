@@ -18,5 +18,22 @@
             "pepper"
         ],
         "Link": "https://www.incredibleegg.org/recipes/basic-scrambled-eggs/"
+    },
+    {
+        "Name": "Pizza",
+        "Ingredients": [
+            "flour",
+            "salt",
+            "sugar",
+            "yeast",
+            "oil",
+            "tomato sauce",
+            "italian seasoning",
+            "garlic powder",
+            "pepper",
+            "pepperoni slices",
+            "cheese"
+        ],
+        "Link": "https://www.food.com/recipe/easy-and-quick-homemade-pizza-22754/"
     }
 ]

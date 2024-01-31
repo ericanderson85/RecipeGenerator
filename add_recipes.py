@@ -13,7 +13,7 @@ def main():
     recipes = []
 
     # Open recipes.json and read it to recipes list
-    with open("recipes.json", "r") as file:
+    with open("static/recipes.json", "r") as file:
         recipes = json.load(file)
 
     # Create dictionary for the new recipe
@@ -30,7 +30,7 @@ def main():
     # Append new recipe to recipes list
     recipes.append(new_recipe)
 
-    with open("recipes.json", "w") as file:
+    with open("static/recipes.json", "w") as file:
         # Update recipes.json
         json.dump(recipes, file)
     print(f"Added {NAME} to recipes")
@@ -42,7 +42,7 @@ def main():
             if i not in recipe_ingredients:
                 recipe_ingredients.append(i)
 
-    with open('ingredients.json', "w") as file:
+    with open('static/ingredients.json', "w") as file:
         json.dump(recipe_ingredients, file)
 
     print(f"Updated ingredients")
