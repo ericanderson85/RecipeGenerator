@@ -16,7 +16,7 @@ function loadData(data, element) {
         let innerElement = "";
         data.forEach((item) => {
             innerElement += `
-            <li>${item}</li>`;
+            <li class="list-item">${item}</li>`;
         });
 
         element.innerHTML = innerElement;
@@ -53,3 +53,8 @@ inputElement.addEventListener("keyup", function (e) {
     }
 });
 
+listElement.addEventListener('click', function (event) {
+    if (event.target && event.target.matches('.list-item')) {
+        addIngredient(event.target.textContent);
+    }
+});
