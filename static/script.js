@@ -136,7 +136,7 @@ inputElement.addEventListener('input', function () {
 
 
 
-inputElement.addEventListener('keyup', function (e) {
+inputElement.addEventListener('keydown', function (e) {
     if (e.key === 'ArrowDown') {
         e.preventDefault();
         updateHighlightedIndex(1);
