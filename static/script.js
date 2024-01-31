@@ -8,27 +8,7 @@ let ingredients = [
     'fish',
     'meat',
     'beef',
-    'soy',
-    'eggs',
-    'milk',
-    'butter',
-    'salt',
-    'pepper',
-    'bacon',
-    'fish',
-    'meat',
-    'beef',
-    'soy',
-    'eggs',
-    'milk',
-    'butter',
-    'salt',
-    'pepper',
-    'bacon',
-    'fish',
-    'meat',
-    'beef',
-    'soy'
+    'coconut',
 ];
 let added = [];
 const listElement = document.querySelector('#ingredient-list');
@@ -128,6 +108,23 @@ function updateHighlightedIndex(x) {
     listElement.children[highlightedIndex].style.backgroundColor = "#f7f3e8";
     highlightedIndex += x;
     listElement.children[highlightedIndex].style.backgroundColor = '#EABF9F';
+}
+
+async function send_ingredients() {
+    try {
+        const response = await fetch('http://127.0.0.1:5000/receive_ingredients', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(added)
+        });
+
+        const responseData = await response.json();
+        console.log('Response from Flask:', responseData);
+    } catch (error) {
+        console.error('Error:', error);
+    }
 }
 
 
