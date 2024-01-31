@@ -41,15 +41,15 @@ inputElement.addEventListener("input", function () {
 });
 
 inputElement.addEventListener("keyup", function (e) {
-    if (e.key === 'Enter') {
+    if (inputElement.value.length == 0) {
+        listElement.hidden = true;
+    } else if (e.key === 'Enter') {
         let lowerValue = this.value.toLowerCase();
         if (ingredients.includes(lowerValue)) {
             addIngredient(lowerValue);
         } else if (filterData(ingredients, lowerValue).length == 1) {
             addIngredient(filterData(ingredients, lowerValue)[0]);
         }
-    } else if (inputElement.value.length == 0) {
-        listElement.hidden = true;
     }
 });
 
