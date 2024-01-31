@@ -1,15 +1,10 @@
-let ingredients = [
-    'eggs',
-    'milk',
-    'butter',
-    'salt',
-    'pepper',
-    'bacon',
-    'fish',
-    'meat',
-    'beef',
-    'coconut',
-];
+let ingredients = [];
+fetch('/static/ingredients.json')
+    .then(response => response.json())
+    .then(response_data => {
+        ingredients = response_data;
+    })
+    .catch(error => console.error('Error:', error));
 let added = [];
 const listElement = document.querySelector('#ingredient-list');
 const inputElement = document.querySelector('#input');
@@ -105,7 +100,7 @@ function updateHighlightedIndex(x) {
         listElement.children[highlightedIndex].style.backgroundColor = '#EABF9F';
         return;
     }
-    listElement.children[highlightedIndex].style.backgroundColor = "#f7f3e8";
+    listElement.children[highlightedIndex].style.backgroundColor = '#f7f3e8';
     highlightedIndex += x;
     listElement.children[highlightedIndex].style.backgroundColor = '#EABF9F';
 }
@@ -156,7 +151,7 @@ inputElement.addEventListener('keyup', function (e) {
 
 listElement.addEventListener('mouseover', function (event) {
     if (event.target && event.target.matches('.list-item')) {
-        listElement.children[highlightedIndex].style.backgroundColor = "#f7f3e8";
+        listElement.children[highlightedIndex].style.backgroundColor = '#f7f3e8';
         event.target.style.backgroundColor = '#EABF9F';
     }
 });
@@ -172,6 +167,10 @@ listElement.addEventListener('click', function (event) {
     if (event.target && event.target.matches('.list-item')) {
         addIngredient(event.target.textContent);
     }
+});
+
+formElement.addEventListener('submit', function (e) {
+    e.preventDefault();
 });
 
 hideSearch();
