@@ -16,8 +16,7 @@ def receive_ingredients():
 def process(data):
     print("Ingredients selected:")
     for ingredient in data:
-        print(ingredient)
-        process_query.add_ingredient(ingredient)
+        process_query.INPUT.append(ingredient)
 
 
 @app.route("/")
