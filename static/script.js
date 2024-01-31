@@ -119,9 +119,13 @@ async function send_ingredients() {
             },
             body: JSON.stringify(added)
         });
-
-        const responseData = await response.json();
-        console.log('Response from Flask:', responseData);
+        if (response.ok) {
+            const html = await response.text();
+            document.body.innerHTML = html;
+            console.log(html)
+        } else {
+            console.error('Server responded with status:', response.status);
+        }
     } catch (error) {
         console.error('Error:', error);
     }

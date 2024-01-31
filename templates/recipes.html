@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes</title>
+</head>
+
+<body>
+    <h1><u class="title">Recipe Generator</u></h1>
+    <ul class="recipes-container">
+        <li class="recipe">
+            <span class="header">Recipe Name</span>
+            <span class="header">Ingredients</span>
+            <span class="header">Link</span>
+        </li>
+        {% for recipe in recipe_list %}
+        <li class="recipe">
+            <span class="recipe-name">{{ recipe[0] }}</span>
+            <span class="recipe-ingredients">{{ recipe[1] }}</span>
+            <span class="recipe-link"><a href="{{ recipe[2] }}">{{ recipe[2] }}</a></span>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>
