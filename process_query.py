@@ -4,7 +4,7 @@ import json
 with open("recipes.json", "r") as all_recipes:
     all_recipes = json.load(all_recipes)
 # TODO User input is set for now, will work on getting from website
-INPUT = ["flour", "butter", "sugar"]
+INPUT = []
 
 
 # List of recipes that can be made
@@ -12,6 +12,9 @@ possible_recipes = []
 # List of recipes that contain an inputted ingrendient
 recipe_search_list = []
 
+# function that adds ingredients to INPUT
+def add_ingredient(ingredient):
+    INPUT.append(ingredient)
 
 # Generates recipes that can be made with inputted ingredients
 def possible_recipes(user_input):
@@ -27,5 +30,4 @@ def recipe_search(user_input):
             recipe_search_list.append(recipe["Name"])
 
 
-possible_recipes(INPUT)
-print(possible_recipes)
+
