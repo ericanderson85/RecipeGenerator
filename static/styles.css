@@ -72,14 +72,19 @@ u:before {
     font-size: 2vw;
     color: var(--black);
     padding: 3px 0px 0px 30px;
+    cursor: pointer;
+}
+
+.ingredient:hover {
+    color: var(--red);
 }
 
 .container {
-    display: inline-flex;
+    display: inline;
 }
 
 .text-box,
-.button {
+.search {
     border: none;
     box-sizing: border-box;
     font-size: 2vw;
@@ -97,7 +102,7 @@ u:before {
     border-right: none;
 }
 
-.button {
+.search {
     width: 21%;
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
@@ -106,7 +111,7 @@ u:before {
     cursor: pointer;
 }
 
-.button:hover {
+.search:hover {
     width: 23%;
     color: black;
     background-color: #d76363;
@@ -114,7 +119,7 @@ u:before {
 }
 
 .dropdown-container {
-    width: 80%;
+    flex-grow: 1;
 }
 
 .autocomplete-list {
