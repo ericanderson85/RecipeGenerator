@@ -18,13 +18,15 @@ def receive_ingredients():
 
 
 # TODO
-def process(data):
+def process(ingredients):
     recipe_list = []
     print("Ingredients selected:")
-    for ingredient in data:
+    for ingredient in ingredients:
         print(ingredient)
 
-    # . . .
+    # TODO Get list of all recipes from recipes.json
+    # TODO Go through these recipes to determine if they can be made with the list of ingredients
+    # TODO Return this list of possible recipes
 
     return recipe_list
 
