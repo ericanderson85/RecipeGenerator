@@ -1,9 +1,10 @@
 import json
 
 # Create a new recipe to add (( EDIT THESE ))
-NAME = "Sugar Cookies"
-INGREDIENTS = ["butter", "sugar", "flour"]
-LINK = "https://bellyfull.net/easy-sugar-cookie-recipe/"
+NAME = "Pizza"
+INGREDIENTS = ["flour", "salt", "sugar", "yeast", "oil", "tomato sauce",
+               "italian seasoning", "garlic powder", "pepper", "pepperoni slices", "cheese"]
+LINK = "https://www.food.com/recipe/easy-and-quick-homemade-pizza-22754/"
 
 
 def main():
@@ -32,8 +33,19 @@ def main():
     with open("recipes.json", "w") as file:
         # Update recipes.json
         json.dump(recipes, file)
-
     print(f"Added {NAME} to recipes")
+
+    recipe_ingredients = []
+    # Add ingredients from recipes list to json
+    for r in recipes:
+        for i in r["Ingredients"]:
+            if i not in recipe_ingredients:
+                recipe_ingredients.append(i)
+
+    with open('ingredients.json', "w") as file:
+        json.dump(recipe_ingredients, file)
+
+    print(f"Updated ingredients")
 
 
 if __name__ == "__main__":
