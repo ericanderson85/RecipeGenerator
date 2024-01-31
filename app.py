@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request
+import process_query as process_query
 
 app = Flask(__name__)
 
@@ -6,6 +7,7 @@ app = Flask(__name__)
 # This method recieves the user input from the front end
 @app.route('/receive_ingredients', methods=['POST'])
 def receive_ingredients():
+    print("a")
     process(request.json)
     return {'status': 'success'}, 200
 
@@ -15,6 +17,7 @@ def process(data):
     print("Ingredients selected:")
     for ingredient in data:
         print(ingredient)
+        process_query.add_ingredient(ingredient)
 
 
 @app.route("/")
