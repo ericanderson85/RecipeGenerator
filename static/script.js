@@ -1,7 +1,34 @@
 let ingredients = [
     'eggs',
     'milk',
-    'butter'
+    'butter',
+    'salt',
+    'pepper',
+    'bacon',
+    'fish',
+    'meat',
+    'beef',
+    'soy',
+    'eggs',
+    'milk',
+    'butter',
+    'salt',
+    'pepper',
+    'bacon',
+    'fish',
+    'meat',
+    'beef',
+    'soy',
+    'eggs',
+    'milk',
+    'butter',
+    'salt',
+    'pepper',
+    'bacon',
+    'fish',
+    'meat',
+    'beef',
+    'soy'
 ];
 let added = [];
 const listElement = document.querySelector('#ingredient-list');
@@ -10,6 +37,7 @@ const addButtonElement = document.querySelector('#add-button');
 const ingredientsElement = document.querySelector('#ingredients');
 const searchButtonElement = document.querySelector('#search');
 const formElement = document.querySelector('#form');
+let highlightedIndex = 0;
 
 function loadData(data, element) {
     if (data) {
@@ -23,28 +51,26 @@ function loadData(data, element) {
 
         element.innerHTML = innerElement;
     }
+    highlightedIndex = 0;
+    updateHighlightedIndex(0);
 }
 
 function filterData(data, searchText) {
+    if (searchText.length === 0) {
+        return;
+    }
     var searchTextLower = searchText.toLowerCase();
-
-    // Filter items that include the search text
     var filtered = data.filter((x) => x.includes(searchTextLower));
-
-    // Sort the filtered array
     filtered.sort((a, b) => {
-        // Check if both or neither start with the search text, then sort alphabetically
         if ((a.startsWith(searchTextLower) && b.startsWith(searchTextLower)) ||
             (!a.startsWith(searchTextLower) && !b.startsWith(searchTextLower))) {
             return a.localeCompare(b);
         }
-        // Prioritize items that start with the search text
         if (a.startsWith(searchTextLower)) {
             return -1;
         }
         return 1;
     });
-
     return filtered;
 }
 
@@ -90,21 +116,55 @@ function removeIngredient(ingredient) {
     }
 }
 
+function updateHighlightedIndex(x) {
+    var count = listElement.childElementCount
+    if (count === 0 || highlightedIndex + x >= count || highlightedIndex + x < 0) {
+        return;
+    }
+    if (x == 0) {
+        listElement.children[highlightedIndex].style.backgroundColor = '#EABF9F';
+        return;
+    }
+    listElement.children[highlightedIndex].style.backgroundColor = "#f7f3e8";
+    highlightedIndex += x;
+    listElement.children[highlightedIndex].style.backgroundColor = '#EABF9F';
+}
+
+
 inputElement.addEventListener('input', function () {
+    if (inputElement.value.length == 0) {
+        listElement.hidden = true;
+    }
     loadData(filterData(ingredients, inputElement.value), listElement);
 });
 
+
+
 inputElement.addEventListener('keyup', function (e) {
-    if (inputElement.value.length == 0) {
-        listElement.hidden = true;
+    if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        updateHighlightedIndex(1);
+    } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        updateHighlightedIndex(-1);
     } else if (e.key === 'Enter') {
-        var lowerValue = this.value.toLowerCase();
-        if (ingredients.includes(lowerValue)) {
-            addIngredient(lowerValue);
-        } else if (filterData(ingredients, lowerValue).length == 1) {
-            addIngredient(filterData(ingredients, lowerValue)[0]);
-        }
+        addIngredient(listElement.children[highlightedIndex].innerHTML);
     }
+});
+
+
+listElement.addEventListener('mouseover', function (event) {
+    if (event.target && event.target.matches('.list-item')) {
+        listElement.children[highlightedIndex].style.backgroundColor = "#f7f3e8";
+        event.target.style.backgroundColor = '#EABF9F';
+    }
+});
+
+listElement.addEventListener('mouseout', function (event) {
+    if (event.target && event.target.matches('.list-item')) {
+        event.target.style.backgroundColor = '#f7f3e8';
+    }
+    updateHighlightedIndex(0);
 });
 
 listElement.addEventListener('click', function (event) {

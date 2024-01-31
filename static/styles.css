@@ -49,6 +49,7 @@ u:before {
     background-color: var(--light-brown);
     padding: 0.4vw;
     border-radius: 40px;
+    min-height: 35px;
 }
 
 
@@ -79,9 +80,7 @@ u:before {
     color: var(--red);
 }
 
-.container {
-    display: inline;
-}
+
 
 .text-box,
 .search {
@@ -100,11 +99,13 @@ u:before {
     border-bottom-left-radius: 40px;
     outline-width: 0;
     border-right: none;
+    min-height: 35px;
 }
 
 .search {
     width: 21%;
     border-top-right-radius: 40px;
+    min-height: 35px;
     border-bottom-right-radius: 40px;
     background-color: var(--red);
     transition: all .2s;
@@ -124,18 +125,31 @@ u:before {
 
 .autocomplete-list {
     position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     list-style-type: none;
-    margin: 0;
     padding: 0;
+    margin: 0;
+    max-height: 340px;
     background-color: var(--light-cream);
-    width: 100%;
-    max-height: 200px;
+    width: calc(100% - 4vw);
     overflow-y: auto;
 }
 
 .autocomplete-list li {
+    font-size: 2vw;
     text-transform: capitalize;
     color: var(--black);
-    padding: 1vw;
+    padding: 0.5vw;
+    border-right: .46vw solid var(--light-brown);
+    border-left: .46vw solid var(--light-brown);
     cursor: pointer;
+}
+
+.autocomplete-list li:first-child {
+    border-top: .46vw solid var(--light-brown);
+}
+
+.autocomplete-list li:last-child {
+    border-bottom: .46vw solid var(--light-brown);
 }
