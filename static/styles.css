@@ -78,32 +78,13 @@ u:before {
     display: inline-flex;
 }
 
-.submit {
-    margin-left: 1vw;
-    width: 12vw;
-    color: var(--black);
-    font-size: 2vw;
-    background-color: var(--red);
-    border: .2vw solid var(--black);
-    border-radius: 40px;
-    transition: all .2s;
-    cursor: pointer;
-}
-
-.submit:hover {
-    transform: scale(1.05);
-    background-color: #d76363;
-    color: black;
-    border-color: black;
-}
-
 .text-box,
 .button {
     border: none;
     box-sizing: border-box;
     font-size: 2vw;
     color: var(--black);
-    border: .1vw solid var(--black);
+    border: .12vw solid var(--dark-brown);
 }
 
 .text-box {
@@ -120,7 +101,7 @@ u:before {
     width: 21%;
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
-    background-color: var(--dark-brown);
+    background-color: var(--red);
     transition: all .2s;
     cursor: pointer;
 }
@@ -128,7 +109,8 @@ u:before {
 .button:hover {
     width: 23%;
     color: black;
-    background-color: #ae7d64;
+    background-color: #d76363;
+
 }
 
 .dropdown-container {
