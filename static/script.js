@@ -26,8 +26,28 @@ function loadData(data, element) {
 }
 
 function filterData(data, searchText) {
-    return data.filter((x) => x.includes(searchText.toLowerCase()));
+    var searchTextLower = searchText.toLowerCase();
+
+    // Filter items that include the search text
+    var filtered = data.filter((x) => x.includes(searchTextLower));
+
+    // Sort the filtered array
+    filtered.sort((a, b) => {
+        // Check if both or neither start with the search text, then sort alphabetically
+        if ((a.startsWith(searchTextLower) && b.startsWith(searchTextLower)) ||
+            (!a.startsWith(searchTextLower) && !b.startsWith(searchTextLower))) {
+            return a.localeCompare(b);
+        }
+        // Prioritize items that start with the search text
+        if (a.startsWith(searchTextLower)) {
+            return -1;
+        }
+        return 1;
+    });
+
+    return filtered;
 }
+
 
 function addIngredient(ingredient) {
     let newIngredient = document.createElement('p');
