@@ -42,6 +42,7 @@ u:before {
 }
 
 #form {
+    position: relative;
     display: flex;
     width: 50%;
     margin-left: 25%;
@@ -66,6 +67,7 @@ u:before {
 }
 
 .ingredient {
+    text-transform: capitalize;
     text-align: end;
     font-size: 2vw;
     color: var(--black);
@@ -85,6 +87,7 @@ u:before {
     border: .2vw solid var(--black);
     border-radius: 40px;
     transition: all .2s;
+    cursor: pointer;
 }
 
 .submit:hover {
@@ -105,7 +108,7 @@ u:before {
 
 .text-box {
     background-color: var(--light-cream);
-    width: 80%;
+    width: 100%;
     padding-left: 3%;
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
@@ -119,10 +122,33 @@ u:before {
     border-bottom-right-radius: 40px;
     background-color: var(--dark-brown);
     transition: all .2s;
+    cursor: pointer;
 }
 
 .button:hover {
     width: 23%;
     color: black;
     background-color: #ae7d64;
+}
+
+.dropdown-container {
+    width: 80%;
+}
+
+.autocomplete-list {
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: var(--light-cream);
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.autocomplete-list li {
+    text-transform: capitalize;
+    color: var(--black);
+    padding: 1vw;
+    cursor: pointer;
 }

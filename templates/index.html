@@ -12,25 +12,21 @@
     <h1><u class="title">Recipe Generator</u></h1>
     <div class="container">
         <form id="form">
-            <input class="text-box" type="text" placeholder="Select ingredients . . .">
-            <input class="button" type="button" value="+" onclick="">
+            <div class="dropdown-container">
+                <input class="text-box" type="text" id="input" placeholder="Select ingredients . . ."
+                    autocomplete="off">
+                <ul class="autocomplete-list" id="ingredient-list"></ul>
+            </div>
+            <input class="button" id="add-button" type="button" value="+" onclick="">
         </form>
         <button class="submit"><label>Search</label></button>
     </div>
-    <div class="ingredients">
-        <p class="ingredient">Eggs</p>
-        <p class="ingredient">Cheese</p>
-        <p class="ingredient">Bacon</p>
-        <p class="ingredient">Eggs</p>
-        <p class="ingredient">Cheese</p>
-        <p class="ingredient">Bacon</p>
-        <p class="ingredient">Eggs</p>
-        <p class="ingredient">Cheese</p>
-        <p class="ingredient">Bacon</p>
-        <p class="ingredient">Eggs</p>
-        <p class="ingredient">Cheese</p>
-        <p class="ingredient">Bacon</p>
-    </div>
+    <div class="ingredients" id="ingredients"></div>
+
+
+
+
+    <script src="../static/script.js"></script>
 </body>
 
 </html>
