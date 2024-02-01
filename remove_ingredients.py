@@ -1,7 +1,7 @@
 import json
 
 # Asks for the Ingredient to remove
-Name = input("Which Ingredient do You Want to Remove\n")
+Name = input("Which Ingredient Do You Want to Remove\n")
 
 # list for ingredients from ingredients
 ingredients = []
@@ -20,7 +20,6 @@ for i in ingredients:
     else:
         new_ingredients.append(i)
 
-# Updates ingredients with the new list of ingredients
+# Updates ingredients with the new list of ingredients. Needs work with the indentation
 with open("static/ingredients.json", "w") as file:
-        # Update recipes.json
         json.dump(new_ingredients, file, indent=1)
