@@ -1,39 +1,287 @@
 [
-    {
-        "Name": "Sugar Cookies",
-        "Ingredients": [
-            "butter",
-            "sugar",
-            "flour"
-        ],
-        "Link": "https://bellyfull.net/easy-sugar-cookie-recipe/"
-    },
-    {
-        "Name": "Scrambled Eggs",
-        "Ingredients": [
-            "eggs",
-            "milk",
-            "butter",
-            "salt",
-            "pepper"
-        ],
-        "Link": "https://www.incredibleegg.org/recipes/basic-scrambled-eggs/"
-    },
-    {
-        "Name": "Pizza",
-        "Ingredients": [
-            "flour",
-            "salt",
-            "sugar",
-            "yeast",
-            "oil",
-            "tomato sauce",
-            "italian seasoning",
-            "garlic powder",
-            "pepper",
-            "pepperoni slices",
-            "cheese"
-        ],
-        "Link": "https://www.food.com/recipe/easy-and-quick-homemade-pizza-22754/"
-    }
+  {
+    "Name": "Sugar Cookies",
+    "Ingredients": [
+      "butter",
+      "sugar",
+      "flour"
+    ],
+    "Link": "https://bellyfull.net/easy-sugar-cookie-recipe/"
+  },
+  {
+    "Name": "Scrambled Eggs",
+    "Ingredients": [
+      "eggs",
+      "milk",
+      "butter",
+      "salt",
+      "pepper"
+    ],
+    "Link": "https://www.incredibleegg.org/recipes/basic-scrambled-eggs/"
+  },
+  {
+    "Name": "Chocolate Chip Cookies",
+    "Ingredients": [
+      "butter",
+      "sugar",
+      "flour",
+      "baking soda",
+      "salt",
+      "brown sugar",
+      "eggs",
+      "vanilla extract",
+      "chocolate chips"
+    ],
+    "Link": "https://www.delish.com/cooking/recipe-ideas/a50605/chocolate-chip-cookies-recipe/"
+  },
+  {
+    "Name": "Banana Nut Bread",
+    "Ingredients": [
+      "butter",
+      "flour",
+      "baking soda",
+      "baking powder",
+      "salt",
+      "brown sugar",
+      "eggs",
+      "walnuts",
+      "bananas"
+    ],
+    "Link": "https://www.aheadofthyme.com/nutty-banana-bread/"
+  },
+  {
+    "Name": "Molten Lava Cakes",
+    "Ingredients": [
+      "butter",
+      "flour",
+      "powdered sugar",
+      "chocolate chips",
+      "salt",
+      "vanilla extract",
+      "eggs"
+    ],
+    "Link": "https://www.aheadofthyme.com/2016/02/easy-molten-chocolate-lava-cakes/"
+  },
+  {
+    "Name": "Chocolate And Vanilla Marble Cake",
+    "Ingredients": [
+      "butter",
+      "flour",
+      "sugar",
+      "chocolate chips",
+      "salt",
+      "vanilla extract",
+      "eggs",
+      "baking powder",
+      "baking soda",
+      "milk"
+    ],
+    "Link": "https://www.aheadofthyme.com/vanilla-and-chocolate-marble-cake/"
+  },
+  {
+    "Name": "Pecan Shortbread Cookies",
+    "Ingredients": [
+      "butter",
+      "flour",
+      "powdered sugar",
+      "brown sugar",
+      "vanilla extract",
+      "pecans"
+    ],
+    "Link": "https://www.aheadofthyme.com/slice-and-bake-pecan-shortbread-cookies/#tasty-recipes-17158-jump-target"
+  },
+  {
+    "Name": "Banana Chocolate Chip Muffins",
+    "Ingredients": [
+      "bananas",
+      "vegetable oil",
+      "eggs",
+      "milk",
+      "chocolate chips",
+      "flour",
+      "sugar",
+      "salt",
+      "vanilla extract",
+      "baking powder"
+    ],
+    "Link": "https://www.aheadofthyme.com/2015/12/banana-chocolate-chip-muffins/#tasty-recipes-5325-jump-target"
+  },
+  {
+    "Name": "Individual Apple Crisps",
+    "Ingredients": [
+      "apples",
+      "sugar",
+      "lemon juice",
+      "cinnamon",
+      "salt",
+      "flour",
+      "oats",
+      "brown sugar",
+      "salt",
+      "butter"
+    ],
+    "Link": "https://www.aheadofthyme.com/individual-apple-crisp/#tasty-recipes-7523-jump-target"
+  },
+  {
+    "Name": "Classic New York Cheesecake",
+    "Ingredients": [
+      "graham crackers",
+      "sugar",
+      "butter",
+      "cream cheese",
+      "heavy cream",
+      "eggs",
+      "vanilla extract",
+      "water"
+    ],
+    "Link": "https://www.aheadofthyme.com/classic-new-york-cheesecake/#tasty-recipes-9083-jump-target"
+  },
+  {
+    "Name": "Carrot Bundt Cake",
+    "Ingredients": [
+      "flour",
+      "baking soda",
+      "baking powder",
+      "salt",
+      "cinnamon",
+      "raisins",
+      "walnuts",
+      "eggs",
+      "olive oil",
+      "brown sugar",
+      "vanilla extract",
+      "carrots",
+      "cream cheese",
+      "butter",
+      "powdered sugar",
+      "milk"
+    ],
+    "Link": "https://www.aheadofthyme.com/carrot-bundt-cake-with-cream-cheese-glaze/#tasty-recipes-20481-jump-target"
+  },
+  {
+    "Name": "Chocolate Cupcakes",
+    "Ingredients": [
+      "flour",
+      "cocoa powder",
+      "baking powder",
+      "salt",
+      "butter",
+      "sugar",
+      "eggs",
+      "vanilla extract",
+      "yogurt",
+      "water",
+      "powdered sugar",
+      "milk"
+    ],
+    "Link": "https://www.aheadofthyme.com/moist-chocolate-cupcakes/#tasty-recipes-20407-jump-target"
+  },
+  {
+    "Name": "M&M Cookie Bars",
+    "Ingredients": [
+      "butter",
+      "brown sugar",
+      "sugar",
+      "egg",
+      "vanilla extract",
+      "flour",
+      "baking soda",
+      "salt",
+      "chocolate chips",
+      "m&m's"
+    ],
+    "Link": "https://www.aheadofthyme.com/mm-cookie-bars/#tasty-recipes-27923-jump-target"
+  },
+  {
+    "Name": "Peach Cobbler",
+    "Ingredients": [
+      "peaches",
+      "sugar",
+      "cornstarch",
+      "flour",
+      "butter",
+      "milk",
+      "vanilla extract",
+      "baking powder",
+      "cinnamon",
+      "salt"
+    ],
+    "Link": "https://www.aheadofthyme.com/easy-peach-cobbler/#tasty-recipes-13198-jump-target"
+  },
+  {
+    "Name": "Lemon Blueberry Bread",
+    "Ingredients": [
+      "flour",
+      "baking powder",
+      "sugar",
+      "salt",
+      "milk",
+      "vegetable oil",
+      "eggs",
+      "vanilla extract",
+      "lemons",
+      "blueberries",
+      "powdered sugar",
+      "lemon juice"
+    ],
+    "Link": "https://www.aheadofthyme.com/lemon-blueberry-bread/#tasty-recipes-22937-jump-target"
+  },
+  {
+    "Name": "French Toast",
+    "Ingredients": [
+      "eggs",
+      "milk",
+      "sugar",
+      "vanilla extract",
+      "salt",
+      "bread"
+    ],
+    "Link": "https://www.tasteofhome.com/recipes/vanilla-french-toast/"
+  },
+  {
+    "Name": "Guacamole",
+    "Ingredients": [
+      "avocados",
+      "garlic",
+      "salt",
+      "onion",
+      "lime juice",
+      "cilantro",
+      "tomatoes"
+    ],
+    "Link": "https://www.tasteofhome.com/recipes/homemade-guacamole/"
+  },
+  {
+    "Name": "Garlic Bread",
+    "Ingredients": [
+      "butter",
+      "garlic",
+      "french bread",
+      "parsley"
+    ],
+    "Link": "https://www.tasteofhome.com/recipes/garlic-bread/"
+  },
+  {
+    "Name": "Mashed Potatoes",
+    "Ingredients": [
+      "potatoes",
+      "butter",
+      "sour cream",
+      "milk",
+      "salt",
+      "pepper"
+    ],
+    "Link": "https://www.tasteofhome.com/recipes/smashed-potatoes/"
+  },
+  {
+    "Name": "Applesauce",
+    "Ingredients": [
+      "apples",
+      "sugar",
+      "water",
+      "lemon juice",
+      "vanilla extract"
+    ],
+    "Link": "https://www.tasteofhome.com/recipes/easy-homemade-chunky-applesauce/"
+  }
 ]
