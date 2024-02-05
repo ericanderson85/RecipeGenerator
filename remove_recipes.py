@@ -45,7 +45,7 @@ for item in ingredients:
 # all unique ingredients from removed recipe
 for r in ingredient_removed:
        for t in r:            
-              child = subprocess.Popen(['python', 'remove_ingredients.py'], stdin=subprocess.PIPE)
+              child = subprocess.Popen(["python", "remove_ingredients.py"], stdin=subprocess.PIPE)
               child.communicate(input=t.encode())
 
 
