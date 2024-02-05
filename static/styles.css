@@ -220,11 +220,16 @@ u:before {
 
 @media (max-width: 600px) {
     .title {
-        font-size: 24px;
+        font-size: calc(2vw + 20px);
+    }
+
+    .title::after,
+    .title::before {
+        content: "\00a0\00a0";
     }
 
     .recipe img {
-        width: 180px;
+        width: 140px;
         height: 100px;
     }
 
@@ -239,15 +244,27 @@ u:before {
     .recipe-ingredients {
         font-size: 10px;
     }
-}
 
-@media (max-width: 400px) {
-
-    .title::after,
-    .title::before {
-        margin-left: auto;
-        margin-right: auto;
-        content: "\00a0\00a0";
+    #form {
+        width: 70%;
+        margin-left: 15%;
+        margin-bottom: 10px;
     }
 
+    .ingredient,
+    .autocomplete-list li,
+    .text-box,
+    .search {
+        font-size: calc(2vw + 5px);
+    }
+
+    .search {
+        width: 30%;
+    }
+
+    @media (max-width: 300px) {
+        .recipe img {
+            width: 100px;
+        }
+    }
 }
