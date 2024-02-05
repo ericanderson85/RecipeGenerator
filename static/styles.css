@@ -12,7 +12,7 @@
 * {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    margin: 0px;
+    margin: 0;
 }
 
 body,
@@ -155,31 +155,99 @@ u:before {
 }
 
 
+.recipes-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* margin: 0 1vw; */
+    /* gap: 10px; */
+}
 
 .recipe {
-    width: 90%;
-    display: grid;
-    grid-template-columns: .8fr 1.4fr .8fr;
-}
-
-.recipes-container {
-    width: 100%;
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 0;
+    padding: 0.25vh 1vw;
+    gap: 5px;
+    height: 150px;
 }
 
-.recipe span {
-    justify-self: center;
-    align-self: center;
-    font-size: 1vw;
-    text-align: center;
-    text-wrap: balance;
+.text-container {
+    max-height: 100%;
+    overflow: auto;
 }
 
-.header {
-    font-weight: 600;
-    font-size: 1.5vw;
-    margin-bottom: .5vw;
+.recipe-ingredients {
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.recipe-name {
+    font-size: 16px;
+}
+
+.recipe img {
+    display: block;
+    object-fit: cover;
+    height: 150px;
+    width: 250px;
+    flex-shrink: 0;
+}
+
+
+@media (min-width: 1081px) {
+    .recipe:nth-child(4n-2) {
+        background-color: #9a501810;
+    }
+
+    .recipe:nth-child(4n-3) {
+        background-color: #9a501810;
+    }
+}
+
+
+@media (max-width: 1080px) {
+
+    .recipe img {
+        width: 300px
+    }
+
+    .recipes-container {
+        grid-template-columns: 1fr;
+    }
+
+    .recipe:nth-child(odd) {
+        background-color: #9a501810;
+    }
+}
+
+@media (max-width: 600px) {
+    .title {
+        font-size: 24px;
+    }
+
+    .recipe img {
+        width: 180px;
+        height: 100px;
+    }
+
+    .recipe {
+        height: 100px;
+    }
+
+    .recipe-name {
+        font-size: 14px;
+    }
+
+    .recipe-ingredients {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .title::after,
+    .title::before {
+        margin-left: auto;
+        margin-right: auto;
+        content: "\00a0\00a0";
+    }
+
 }
