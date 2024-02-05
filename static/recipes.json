@@ -283,5 +283,22 @@
       "vanilla extract"
     ],
     "Link": "https://www.tasteofhome.com/recipes/easy-homemade-chunky-applesauce/"
-  }
+  },
+  {
+    "Name": "Pizza",
+    "Ingredients": [
+      "flour",
+      "salt",
+      "sugar",
+      "yeast",
+      "oil",
+      "tomato sauce",
+      "italian seasoning",
+      "garlic powder",
+      "pepper",
+      "pepperoni slices",
+      "cheese"
+    ],
+    "Link": "https://www.food.com/recipe/easy-and-quick-homemade-pizza-22754/"
+    }
 ]
