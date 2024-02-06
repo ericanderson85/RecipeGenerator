@@ -8,7 +8,6 @@ app = Flask(__name__)
 @app.route('/receive_ingredients', methods=['POST'])
 def receive_ingredients():
     recipe_list = recipes(request.json)[0]
-    print(recipe_list)
     return render_template('recipes.html', recipe_list=recipe_list)
 
 
