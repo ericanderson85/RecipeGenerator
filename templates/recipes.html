@@ -37,7 +37,7 @@
     {% endif %}
 
     {% if almost_recipes | length > 0 %}
-    <span style="margin-top: 40px;" class="results">You can almost make . . .</span>
+    <span class="results">You can almost make . . .</span>
     <div class="recipes-container">
         {% for recipe in almost_recipes %}
         <a href="{{ recipe['Link'] }}" target="_blank">

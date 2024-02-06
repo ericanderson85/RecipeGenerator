@@ -58,7 +58,9 @@ u:before {
     min-height: 35px;
 }
 
-
+.results {
+    padding: 0.25vh 1vw;
+}
 
 .ingredients {
     width: 50%;
