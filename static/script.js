@@ -117,7 +117,6 @@ async function send_ingredients() {
         if (response.ok) {
             const html = await response.text();
             document.body.innerHTML = html;
-            console.log(html)
         } else {
             console.error('Server responded with status:', response.status);
         }
