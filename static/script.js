@@ -142,7 +142,7 @@ inputElement.addEventListener('keydown', function (e) {
     } else if (e.key === 'ArrowUp') {
         e.preventDefault();
         updateHighlightedIndex(-1);
-    } else if (e.key === 'Enter') {
+    } else if (e.key === 'Enter' && this.value != '') {
         addIngredient(listElement.children[highlightedIndex].innerHTML);
     }
 });
