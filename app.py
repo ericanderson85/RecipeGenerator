@@ -9,19 +9,24 @@ app = Flask(__name__)
 @app.route('/receive_ingredients', methods=['POST'])
 def receive_ingredients():
     recipe_list = process(request.json)
-
-    # Use all recipes for now, until process() is finished
-    with open('static/recipes.json', 'r') as file:
-        recipe_list = json.load(file)
     return render_template('recipes.html', recipe_list=recipe_list)
 
 
 def process(ingredients):
-    recipe_list = []
+    # result list index 0 contains recipes that only have the given ingredients
+    # result list index 1 contains recipes that have the ingredient and are missing other ingredients
+    result_list = []
     print("Ingredients selected:")
     for ingredient in ingredients:
         process_query.INPUT.append(ingredient)
-    return recipe_list
+    process_query.possible_recipes(process_query.INPUT)
+    process_query.recipe_search(process_query.INPUT)
+    result_list.append(process_query.possible_recipes_list)
+    result_list.append(process_query.recipe_search_list)
+    for x in (result_list[1]):
+        if x in result_list[0]:
+            result_list[1].remove(x)
+    return result_list
 
 
 @app.route("/")

@@ -7,8 +7,8 @@ with open("static/recipes.json", "r") as all_recipes:
 INPUT = []
 
 
-# List of recipes that can be made
-possible_recipes = []
+# List of recipes that can be mades
+possible_recipes_list = []
 # List of recipes that contain an inputted ingrendient
 recipe_search_list = []
 
@@ -20,11 +20,10 @@ def add_ingredient(ingredient):
 
 # Generates recipes that can be made with inputted ingredients
 
-
 def possible_recipes(user_input):
     for recipe in all_recipes:
-        if all(element in recipe["Ingredients"] for element in user_input):
-            possible_recipes.append(recipe["Name"])
+        if(set(recipe["Ingredients"]).issubset(user_input)):
+            possible_recipes_list.append(recipe["Name"])
 
 
 # Searches for recipes that include an inputted ingredient
