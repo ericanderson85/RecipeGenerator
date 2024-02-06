@@ -8,21 +8,24 @@
 </head>
 
 <body>
-    <h1><u class="title">Recipe Generator</u></h1>
+    <h1><a href="/"><u class="title">Recipe Generator</u></a></h1>
     <div class="recipes-container">
         {% for recipe in recipe_list %}
-        <div class="recipe">
-            <img src="{{ recipe['Name'].jpg }}" width="300px" height="150px">
-            <div class="text-container">
-                <h2 class="recipe-name"><a href="{{ recipe['Link'] }}" target="_blank">{{ recipe["Name"] }}</a></h2>
-                <p class="recipe-ingredients">
-                    {% for i in range(recipe["Ingredients"] | length - 1) %}
-                    {{ recipe["Ingredients"][i] }},
-                    {% endfor %}
-                    {{ recipe["Ingredients"][recipe["Ingredients"] | length - 1] }}
-                </p>
+        <a href="{{ recipe['Link'] }}" target="_blank">
+            <div class="recipe">
+                <img src="../static/images/{{recipe['Name'].replace(' ', '-')}}.jpg" width="300px" height="150px"
+                    rel="{{ recipe['Name'] }}">
+                <div class="text-container">
+                    <h2 class="recipe-name">{{ recipe["Name"] }}</h2>
+                    <p class="recipe-ingredients">
+                        {% for i in range(recipe["Ingredients"] | length - 1) %}
+                        {{ recipe["Ingredients"][i] }},
+                        {% endfor %}
+                        {{ recipe["Ingredients"][recipe["Ingredients"] | length - 1] }}
+                    </p>
+                </div>
             </div>
-        </div>
+        </a>
         {% endfor %}
     </div>
 </body>

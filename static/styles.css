@@ -13,14 +13,20 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     margin: 0;
+    transition: transform 300ms ease;
 }
 
-body,
-html {
-    height: 100%;
+body {
+    overflow-y: scroll;
+    scrollbar-gutter: stable both-edges;
     background-color: var(--cream);
     display: flex;
     flex-direction: column;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
 }
 
 .title {
@@ -158,8 +164,6 @@ u:before {
 .recipes-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* margin: 0 1vw; */
-    /* gap: 10px; */
 }
 
 .recipe {
@@ -191,14 +195,17 @@ u:before {
     flex-shrink: 0;
 }
 
+.title:hover,
+.recipe:hover {
+    transform: scale(1.05);
+}
+
 
 @media (min-width: 1081px) {
-    .recipe:nth-child(4n-2) {
-        background-color: #9a501810;
-    }
 
-    .recipe:nth-child(4n-3) {
-        background-color: #9a501810;
+    a:nth-child(4n+1),
+    a:nth-child(4n+2) {
+        background-color: #fdf5e7;
     }
 }
 
@@ -213,8 +220,8 @@ u:before {
         grid-template-columns: 1fr;
     }
 
-    .recipe:nth-child(odd) {
-        background-color: #9a501810;
+    a:nth-child(odd) {
+        background-color: #fdf5e7;
     }
 }
 
