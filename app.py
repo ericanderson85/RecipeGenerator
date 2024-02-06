@@ -7,8 +7,8 @@ app = Flask(__name__)
 # This method recieves the user input from the front end
 @app.route('/receive_ingredients', methods=['POST'])
 def receive_ingredients():
-    recipe_list = recipes(request.json)[0]
-    return render_template('recipes.html', recipe_list=recipe_list)
+    recipe_list, almost_recipes = recipes(request.json)
+    return render_template('recipes.html', recipe_list=recipe_list, almost_recipes=almost_recipes)
 
 
 @app.route("/")

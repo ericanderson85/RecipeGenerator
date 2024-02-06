@@ -62,7 +62,7 @@ u:before {
 
 .ingredients {
     width: 50%;
-    height: 60%;
+    height: 60vh;
     min-height: 20vw;
     margin-left: 25%;
     display: flex;
