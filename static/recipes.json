@@ -13,9 +13,7 @@
     "Ingredients": [
       "eggs",
       "milk",
-      "butter",
-      "salt",
-      "pepper"
+      "butter"
     ],
     "Link": "https://www.incredibleegg.org/recipes/basic-scrambled-eggs/"
   },
@@ -26,7 +24,6 @@
       "sugar",
       "flour",
       "baking soda",
-      "salt",
       "brown sugar",
       "eggs",
       "vanilla extract",
@@ -41,7 +38,6 @@
       "flour",
       "baking soda",
       "baking powder",
-      "salt",
       "brown sugar",
       "eggs",
       "walnuts",
@@ -56,7 +52,6 @@
       "flour",
       "powdered sugar",
       "chocolate chips",
-      "salt",
       "vanilla extract",
       "eggs"
     ],
@@ -69,7 +64,6 @@
       "flour",
       "sugar",
       "chocolate chips",
-      "salt",
       "vanilla extract",
       "eggs",
       "baking powder",
@@ -100,7 +94,6 @@
       "chocolate chips",
       "flour",
       "sugar",
-      "salt",
       "vanilla extract",
       "baking powder"
     ],
@@ -113,11 +106,9 @@
       "sugar",
       "lemon juice",
       "cinnamon",
-      "salt",
       "flour",
       "oats",
       "brown sugar",
-      "salt",
       "butter"
     ],
     "Link": "https://www.aheadofthyme.com/individual-apple-crisp/#tasty-recipes-7523-jump-target"
@@ -141,7 +132,6 @@
       "flour",
       "baking soda",
       "baking powder",
-      "salt",
       "cinnamon",
       "raisins",
       "walnuts",
@@ -163,7 +153,6 @@
       "flour",
       "cocoa powder",
       "baking powder",
-      "salt",
       "butter",
       "sugar",
       "eggs",
@@ -184,7 +173,6 @@
       "vanilla extract",
       "flour",
       "baking soda",
-      "salt",
       "chocolate chips",
       "m&m's"
     ],
@@ -201,8 +189,7 @@
       "milk",
       "vanilla extract",
       "baking powder",
-      "cinnamon",
-      "salt"
+      "cinnamon"
     ],
     "Link": "https://www.aheadofthyme.com/easy-peach-cobbler/#tasty-recipes-13198-jump-target"
   },
@@ -212,7 +199,6 @@
       "flour",
       "baking powder",
       "sugar",
-      "salt",
       "milk",
       "vegetable oil",
       "eggs",
@@ -231,7 +217,6 @@
       "milk",
       "sugar",
       "vanilla extract",
-      "salt",
       "bread"
     ],
     "Link": "https://www.tasteofhome.com/recipes/vanilla-french-toast/"
@@ -241,7 +226,6 @@
     "Ingredients": [
       "avocados",
       "garlic",
-      "salt",
       "onion",
       "lime juice",
       "cilantro",
@@ -265,9 +249,7 @@
       "potatoes",
       "butter",
       "sour cream",
-      "milk",
-      "salt",
-      "pepper"
+      "milk"
     ],
     "Link": "https://www.tasteofhome.com/recipes/smashed-potatoes/"
   },
@@ -285,14 +267,12 @@
     "Name": "Pizza",
     "Ingredients": [
       "flour",
-      "salt",
       "sugar",
       "yeast",
       "vegetable oil",
       "tomato sauce",
       "italian seasoning",
       "garlic powder",
-      "pepper",
       "pepperoni slices",
       "cheese"
     ],
