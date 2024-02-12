@@ -41,10 +41,4 @@ for item in ingredients:
                 if items == rms:
                     ingredient_removed[0].remove(items)
 
-# Calls to the ingredient remover and removes
-# all unique ingredients from removed recipe
-for r in ingredient_removed:
-    for t in r:
-        child = subprocess.Popen(
-            ["python", "remove_ingredients.py"], stdin=subprocess.PIPE)
-        child.communicate(input=t.encode())
+
