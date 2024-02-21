@@ -7,7 +7,7 @@ INGREDIENTS = ["flour", "salt", "sugar", "yeast", "oil", "tomato sauce",
 LINK = "https://www.food.com/recipe/easy-and-quick-homemade-pizza-22754/"
 
 
-def main():
+def add_recipe(name, ingredients, link):
 
     # Create recipes list
     recipes = []
@@ -17,14 +17,14 @@ def main():
         recipes = json.load(file)
 
     # Create dictionary for the new recipe
-    new_recipe = {"Name": NAME.title(),
-                  "Ingredients": [ingredient.lower() for ingredient in INGREDIENTS],
-                  "Link": LINK}
+    new_recipe = {"Name": name.title(),
+                  "Ingredients": [ingredient.lower() for ingredient in ingredients],
+                  "Link": link}
 
     # Make sure the name isn't already used in recipes
     for r in recipes:
-        if r["Name"] == NAME:
-            print(f"{NAME} already in recipes")
+        if r["Name"] == name:
+            print(f"{name} already in recipes")
             return
 
     # Append new recipe to recipes list
@@ -33,7 +33,7 @@ def main():
     with open("static/recipes.json", "w") as file:
         # Update recipes.json
         json.dump(recipes, file)
-    print(f"Added {NAME} to recipes")
+    print(f"Added {name} to recipes")
 
     recipe_ingredients = []
     # Add ingredients from recipes list to json
@@ -46,6 +46,10 @@ def main():
         json.dump(recipe_ingredients, file)
 
     print(f"Updated ingredients")
+
+
+def main():
+    add_recipe(NAME, INGREDIENTS, LINK)
 
 
 if __name__ == "__main__":
