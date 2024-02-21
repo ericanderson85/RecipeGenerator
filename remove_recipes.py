@@ -1,41 +1,46 @@
 import json
 
-# Asks for recipe to delete
-Name = input('Enter Name of Recipe to Delete\n')
 
-# Current recipeslist
-recipes = []
+def main():
+    # Asks for recipe to delete
+    DELETED_RECIPE = input(
+        "Enter the name of the recipe to be deleted:\n").title()
 
-# Updated recipes list
-new_recipes = []
+    # Current recipeslist
+    recipes = []
 
-# ingredients to remove
-ingredient_removed = []
+    # Updated recipes list
+    new_recipes = []
 
-# Ingredients from other recepies
-ingredients = []
-# Opens recipes list and assigns it to current recipes
-with open("static/recipes.json", "r") as file:
-    recipes = json.load(file)
+    # Opens recipes list and assigns it to current recipes
+    with open("static/recipes.json", "r") as file:
+        recipes = json.load(file)
 
-# Appends recipes to updated recipes unless it is the recipe to remove
-for r in recipes:
-    if r["Name"] == Name:
-        ingredient_removed.append(r["Ingredients"])
-        print("Recipe Deleted")
-    else:
-        ingredients.append(r["Ingredients"])
-        new_recipes.append(r)
+    # Appends recipes to updated recipes unless it is the recipe to remove
+    for r in recipes:
+        if r["Name"] != DELETED_RECIPE:
+            new_recipes.append(r)
+        else:
+            print("Removed", r["Name"])
 
-# Updates the new recipe list to recipes
-with open("static/recipes.json", "w") as file:
-    # Update recipes.json
-    json.dump(new_recipes, file, indent=4)
+    # Ingredients from other recepies
+    ingredients = set()
 
-# Iterates through lists and leaves behind unique ingredients to be removed
-for item in ingredients:
-    for items in item:
-        for rm in ingredient_removed:
-            for rms in rm:
-                if items == rms:
-                    ingredient_removed[0].remove(items)
+    for r in new_recipes:
+        ingredients.update(r["Ingredients"])
+
+    # Updates the new recipe list to recipes
+    with open("static/recipes.json", "w") as file:
+        # Update recipes.json
+        json.dump(new_recipes, file, indent=4)
+
+    # Updates the new recipe list to recipes
+    with open("static/ingredients.json", "w") as file:
+        # Update recipes.json
+        json.dump(list(ingredients), file, indent=4)
+
+    print("Updated recipes")
+
+
+if __name__ == "__main__":
+    main()
