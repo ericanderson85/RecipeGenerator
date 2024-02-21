@@ -14,11 +14,11 @@ ingredient_removed = []
 
 # Ingredients from other recepies
 ingredients = []
-# Opens recipies list and assigns it to current recipies
+# Opens recipes list and assigns it to current recipes
 with open("static/recipes.json", "r") as file:
     recipes = json.load(file)
 
-# Appends recipies to updated recipies unless it is the recipe to remove
+# Appends recipes to updated recipes unless it is the recipe to remove
 for r in recipes:
     if r["Name"] == Name:
         ingredient_removed.append(r["Ingredients"])
