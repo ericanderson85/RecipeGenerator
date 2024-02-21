@@ -1,5 +1,4 @@
 import json
-import subprocess
 
 # Asks for recipe to delete
 Name = input('Enter Name of Recipe to Delete\n')
@@ -40,5 +39,3 @@ for item in ingredients:
             for rms in rm:
                 if items == rms:
                     ingredient_removed[0].remove(items)
-
-
