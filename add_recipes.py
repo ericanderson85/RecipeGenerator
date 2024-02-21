@@ -32,7 +32,7 @@ def add_recipe(name, ingredients, link):
 
     with open("static/recipes.json", "w") as file:
         # Update recipes.json
-        json.dump(recipes, file)
+        json.dump(recipes, file, indent=4)
     print(f"Added {name} to recipes")
 
     recipe_ingredients = []
@@ -43,7 +43,7 @@ def add_recipe(name, ingredients, link):
                 recipe_ingredients.append(i)
 
     with open('static/ingredients.json', "w") as file:
-        json.dump(recipe_ingredients, file)
+        json.dump(recipe_ingredients, file, indent=4)
 
     print(f"Updated ingredients")
 
