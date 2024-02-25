@@ -39,20 +39,17 @@ def get_page(url):
          test = link.get('href')
          if 'https://www.allrecipes.com/recipe/' in test:
               url_list.append(link.get('href'))
-    for url in url_list:
-         ingredients = get_ingredients(url)
-         recipe_name = get_recipe_name(url)
-         for x in ingredients:
-              if x in all_ingredients:
-                   ingredients.pop(ingredients.index(x))
-         validate_ingredients(ingredients)
-         add_recipe(name=recipe_name, ingredients=ingredients, link=url)
+    for url in url_list:  
+        ingredients = get_ingredients(url)
+        recipe_name = get_recipe_name(url)
+        validate_ingredients(ingredients)
+        add_recipe(name=recipe_name, ingredients=ingredients, link=url)
  
 def validate_ingredients(ingredients):
     print("\n\nValidating ingredients...\nPress enter to confirm, \"r\" to remove, or a new name to rename.\n")
     i = 0
     while (i < len(ingredients)):
-        user_input = input(f"{ingredients[i]} :  ")
+        user_input = input(f"{ingredients[i]} :  ")            
         if user_input == "" or user_input == "y" or user_input == "yes":
             i += 1
             continue
@@ -61,9 +58,11 @@ def validate_ingredients(ingredients):
             ingredients.pop(i)
             continue
         
-        if user_input in all_ingredients:
+        if ingredients[i] in all_ingredients:
              print("This Ingredient is already on the list")
-             ingredients.pop(i)
+             all_ingredients.pop(all_ingredients.index(user_input))
+             ingredients[i] = user_input
+             i += 1  
              continue
         else:
              ingredients[i] = user_input
