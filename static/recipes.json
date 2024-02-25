@@ -309,5 +309,165 @@
             "lemon juice"
         ],
         "Link": "https://www.eatingwell.com/spinach-artichoke-dip-soup-8430807"
+    },
+    {
+        "Name": "Feta Roast Chicken",
+        "Ingredients": [
+            "feta cheese",
+            "red pepper flakes",
+            "freshly ground black pepper",
+            "lemon",
+            "dried oregano",
+            "whole chicken",
+            "salt",
+            "fresh rosemary",
+            "fresh oregano",
+            "k",
+            "kosher salt",
+            "chicken broth"
+        ],
+        "Link": "https://www.allrecipes.com/recipe/268180/feta-roast-chicken/"
+    },
+    {
+        "Name": "Butterflied Roast Chicken With Lemon And Rosemary",
+        "Ingredients": [
+            "white wine"
+        ],
+        "Link": "https://www.allrecipes.com/recipe/242362/butterflied-roast-chicken-with-lemon-and-rosemary/"
+    },
+    {
+        "Name": "Million Dollar Chicken",
+        "Ingredients": [
+            "fresh thyme",
+            "garlic, peeled (optional)",
+            "bay leaf",
+            "day-old sourdough french bread",
+            "creme fraiche",
+            "peeled and grated shallot",
+            "aleppo pepper",
+            "chive blossoms for garnish, chopped (optional)"
+        ],
+        "Link": "https://www.allrecipes.com/recipe/233953/million-dollar-chicken/"
+    },
+    {
+        "Name": "Caribbean-Spiced Roast Chicken",
+        "Ingredients": [
+            "fresh lime juice",
+            "rum",
+            "cayenne pepper",
+            "ground clove",
+            "ground cinnamon",
+            "ground ginger",
+            "black pepper",
+            "dried thyme leaves",
+            "vegetable oil"
+        ],
+        "Link": "https://www.allrecipes.com/recipe/107488/caribbean-spiced-roast-chicken/"
+    },
+    {
+        "Name": "Whole Chicken Pie",
+        "Ingredients": [
+            "carrot",
+            "celery",
+            "minced fresh rosemary",
+            "buttercrust pastry dough",
+            "all-purpose flour",
+            "egg",
+            "rose wine"
+        ],
+        "Link": "https://www.allrecipes.com/recipe/265562/whole-chicken-pie/"
+    },
+    {
+        "Name": "Chef John'S Salt Roasted Chicken",
+        "Ingredients": [
+            "chopped fresh thyme"
+        ],
+        "Link": "https://www.allrecipes.com/recipe/235171/chef-johns-salt-roasted-chicken/"
+    },
+    {
+        "Name": "Braise-Roasted Chicken With Lemon And Carrots",
+        "Ingredients": [
+            "light beer",
+            "dried rosemary",
+            "dried thyme"
+        ],
+        "Link": "https://www.allrecipes.com/recipe/245513/braise-roasted-chicken-with-lemon-and-carrots/"
+    },
+    {
+        "Name": "Sicilian Roasted Chicken",
+        "Ingredients": [
+            "ground paprika"
+        ],
+        "Link": "https://www.allrecipes.com/recipe/255263/sicilian-roasted-chicken/"
+    },
+    {
+        "Name": "Roast Chicken And Vegetables",
+        "Ingredients": [
+            "red potatoes",
+            "sweet onion",
+            "margarine",
+            "minced garlic"
+        ],
+        "Link": "https://www.allrecipes.com/recipe/228844/roast-chicken-and-vegetables/"
+    },
+    {
+        "Name": "Juicy Roasted Chicken",
+        "Ingredients": [],
+        "Link": "https://www.allrecipes.com/recipe/83557/juicy-roasted-chicken/"
+    },
+    {
+        "Name": "Grilled Chicken Under A Brick",
+        "Ingredients": [],
+        "Link": "https://www.allrecipes.com/recipe/275044/grilled-chicken-under-a-brick/"
+    },
+    {
+        "Name": "Honey Mustard Roast Chicken",
+        "Ingredients": [
+            "yellow mustard",
+            "honey",
+            "seasoned rice wine vinegar",
+            "sriracha",
+            "smoked paprika",
+            "chicken stock",
+            "green onions"
+        ],
+        "Link": "https://www.allrecipes.com/recipe/279544/honey-mustard-roast-chicken/"
+    },
+    {
+        "Name": "Crispy Roasted Chicken",
+        "Ingredients": [
+            "caraway seeds",
+            "dried sage",
+            "fennel seeds",
+            "coriander seeds",
+            "dried rosemary",
+            "paprika",
+            "all-purpose flour",
+            "onion powder",
+            "broiler-fryer chicken"
+        ],
+        "Link": "https://www.allrecipes.com/recipe/228363/crispy-roasted-chicken/"
+    },
+    {
+        "Name": "Succulent Roast Chicken",
+        "Ingredients": [
+            "whole garlic cloves"
+        ],
+        "Link": "https://www.allrecipes.com/recipe/214479/succulent-roast-chicken/"
+    },
+    {
+        "Name": "Orange Herb Roasted Chicken",
+        "Ingredients": [
+            "navel oranges"
+        ],
+        "Link": "https://www.allrecipes.com/recipe/167419/orange-herb-roasted-chicken/"
+    },
+    {
+        "Name": "A Simply Perfect Roast Turkey",
+        "Ingredients": [
+            "turkey",
+            "unsalted butter"
+        ],
+        "Link": "https://www.allrecipes.com/recipe/56348/a-simply-perfect-roast-turkey/"
     }
 ]
