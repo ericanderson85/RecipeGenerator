@@ -1,10 +1,10 @@
 import json
 
 # Create a new recipe to add (( EDIT THESE ))
-NAME = "ground beef gyro"
-INGREDIENTS = ["yogurt", "cucumber", "onions", "garlic cloves", "sugar", "ground beef",
-               "dried oregano", "garlic powder", "salt", "pepper", "pita bread", "lettuce", "tomatoes", "onions"]
-LINK = "https://www.food.com/recipe/ground-beef-gyros-30081"
+NAME = "asian chicken salad"
+INGREDIENTS = ["brown sugar", "mandarin juice", "soy sauce", "sesame oil", "vegetable oil", "rice vinegar",
+               "romaine lettuce", "chicken breast", "green onions", "carrot", "noodles", "almonds", "mandarin oranges"]
+LINK = "https://www.food.com/recipe/delicious-asian-chicken-salad-with-chow-mein-noodles-300183"
 
 
 def add_recipe(name, ingredients, link):

@@ -539,5 +539,24 @@
             "onions"
         ],
         "Link": "https://www.food.com/recipe/ground-beef-gyros-30081"
+    },
+    {
+        "Name": "Asian Chicken Salad",
+        "Ingredients": [
+            "brown sugar",
+            "mandarin juice",
+            "soy sauce",
+            "sesame oil",
+            "vegetable oil",
+            "rice vinegar",
+            "romaine lettuce",
+            "chicken breast",
+            "green onions",
+            "carrot",
+            "noodles",
+            "almonds",
+            "mandarin oranges"
+        ],
+        "Link": "https://www.food.com/recipe/delicious-asian-chicken-salad-with-chow-mein-noodles-300183"
     }
 ]
