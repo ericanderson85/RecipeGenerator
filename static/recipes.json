@@ -461,6 +461,168 @@
         "Link": "https://www.food.com/recipe/ground-beef-gyros-30081"
     },
     {
+        "Name": "Asian Chicken Salad",
+        "Ingredients": [
+            "brown sugar",
+            "mandarin juice",
+            "soy sauce",
+            "sesame oil",
+            "vegetable oil",
+            "rice vinegar",
+            "romaine lettuce",
+            "chicken breast",
+            "green onions",
+            "carrot",
+            "noodles",
+            "almonds",
+            "mandarin oranges"
+        ],
+        "Link": "https://www.food.com/recipe/delicious-asian-chicken-salad-with-chow-mein-noodles-300183"
+    },
+    {
+        "Name": "Mexican Egg Salad",
+        "Ingredients": [
+            "eggs",
+            "celery",
+            "pickle",
+            "seasoning salt",
+            "dry mustard",
+            "cumin seeds",
+            "white pepper",
+            "vinegar",
+            "mayonnaise",
+            "salad greens"
+        ],
+        "Link": "https://www.food.com/recipe/mexican-egg-salad-67582?scale=1"
+    },
+    {
+        "Name": "Cornflake Potatoes",
+        "Ingredients": [
+            "potato",
+            "butter",
+            "salt",
+            "corn flakes"
+        ],
+        "Link": "https://www.food.com/recipe/easy-crispy-cornflake-potatoes-151959"
+    },
+    {
+        "Name": "Shredded Chicken Quesadillas",
+        "Ingredients": [
+            "cooked chicken",
+            "salsa",
+            "green onion",
+            "ground cumin",
+            "salt",
+            "dried oregano",
+            "tortilla",
+            "butter",
+            "cheese",
+            "sour cream",
+            "guacamole"
+        ],
+        "Link": "https://www.food.com/recipe/chicken-quesadillas-34924?scale=1"
+    },
+    {
+        "Name": "Thai Coconut Rice",
+        "Ingredients": [
+            "rice",
+            "coconut milk",
+            "water",
+            "salt",
+            "sugar",
+            "red pepper",
+            "turmeric",
+            "ginger",
+            "almonds"
+        ],
+        "Link": "https://www.food.com/recipe/thai-coconut-rice-63446?scale=1"
+    },
+    {
+        "Name": "Garlic Potatoes",
+        "Ingredients": [
+            "potatoes",
+            "butter",
+            "kosher salt",
+            "pepper",
+            "cheese",
+            "garlic butter",
+            "garlic cloves"
+        ],
+        "Link": "https://www.food.com/recipe/garlic-potatoes-13380"
+    },
+    {
+        "Name": "Pancakes",
+        "Ingredients": [
+            "eggs",
+            "butter",
+            "milk",
+            "flour",
+            "sugar",
+            "baking powder",
+            "salt"
+        ],
+        "Link": "https://www.food.com/recipe/pancakes-25690"
+    },
+    {
+        "Name": "Chocolate Chip Muffins",
+        "Ingredients": [
+            "flour",
+            "brown sugar",
+            "sugar",
+            "baking powder",
+            "salt",
+            "milk",
+            "butter",
+            "eggs",
+            "vanilla",
+            "chocolate chips",
+            "walnuts"
+        ],
+        "Link": "https://www.food.com/recipe/chocolate-chip-muffins-9326"
+    },
+    {
+        "Name": "Baked Beans",
+        "Ingredients": [
+            "pork and beans",
+            "onion",
+            "spicy brown mustard",
+            "brown sugar",
+            "ketchup",
+            "bacon"
+        ],
+        "Link": "https://www.food.com/recipe/baked-beans-39478"
+    },
+    {
+        "Name": "Baked Beans",
+        "Ingredients": [
+            "pork and beans",
+            "onion",
+            "spicy brown mustard",
+            "brown sugar",
+            "ketchup",
+            "bacon"
+        ],
+        "Link": "https://www.food.com/recipe/baked-beans-39478"
+    },
+    {
+        "Name": "Cranberry Oatmeal Muffins",
+        "Ingredients": [
+            "rolled oats",
+            "yogurt",
+            "oil",
+            "white sugar",
+            "brown sugar",
+            "egg",
+            "flour",
+            "salt",
+            "baking powder",
+            "baking soda",
+            "orange rind",
+            "cranberries"
+        ],
+        "Link": "https://www.food.com/recipe/cranberry-oatmeal-muffins-37861"
+    },
+    {
         "Name": "Crispy Baked Chicken Tacos",
         "Ingredients": [
             "canola oil",
