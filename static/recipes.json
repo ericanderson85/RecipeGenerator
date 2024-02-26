@@ -579,5 +579,17 @@
             "walnuts"
         ],
         "Link": "https://www.food.com/recipe/chocolate-chip-muffins-9326"
+    },
+    {
+        "Name": "Baked Beans",
+        "Ingredients": [
+            "pork and beans",
+            "onion",
+            "spicy brown mustard",
+            "brown sugar",
+            "ketchup",
+            "bacon"
+        ],
+        "Link": "https://www.food.com/recipe/baked-beans-39478"
     }
 ]
