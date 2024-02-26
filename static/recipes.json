@@ -461,86 +461,6 @@
         "Link": "https://www.food.com/recipe/ground-beef-gyros-30081"
     },
     {
-        "Name": "Ground Beef Gyro",
-        "Ingredients": [
-            "yogurt",
-            "cucumber",
-            "onions",
-            "garlic cloves",
-            "sugar",
-            "ground beef",
-            "dried oregano",
-            "garlic powder",
-            "salt",
-            "pepper",
-            "pita bread",
-            "lettuce",
-            "tomatoes",
-            "onions"
-        ],
-        "Link": "https://www.food.com/recipe/ground-beef-gyros-30081"
-    },
-    {
-        "Name": "Ground Beef Gyro",
-        "Ingredients": [
-            "yogurt",
-            "cucumber",
-            "onions",
-            "garlic cloves",
-            "sugar",
-            "ground beef",
-            "dried oregano",
-            "garlic powder",
-            "salt",
-            "pepper",
-            "pita bread",
-            "lettuce",
-            "tomatoes",
-            "onions"
-        ],
-        "Link": "https://www.food.com/recipe/ground-beef-gyros-30081"
-    },
-    {
-        "Name": "Ground Beef Gyro",
-        "Ingredients": [
-            "yogurt",
-            "cucumber",
-            "onions",
-            "garlic cloves",
-            "sugar",
-            "ground beef",
-            "dried oregano",
-            "garlic powder",
-            "salt",
-            "pepper",
-            "pita bread",
-            "lettuce",
-            "tomatoes",
-            "onions"
-        ],
-        "Link": "https://www.food.com/recipe/ground-beef-gyros-30081"
-    },
-    {
-        "Name": "Ground Beef Gyro",
-        "Ingredients": [
-            "yogurt",
-            "cucumber",
-            "onions",
-            "garlic cloves",
-            "sugar",
-            "ground beef",
-            "dried oregano",
-            "garlic powder",
-            "salt",
-            "pepper",
-            "pita bread",
-            "lettuce",
-            "tomatoes",
-            "onions"
-        ],
-        "Link": "https://www.food.com/recipe/ground-beef-gyros-30081"
-    },
-    {
         "Name": "Asian Chicken Salad",
         "Ingredients": [
             "brown sugar",
@@ -574,37 +494,7 @@
             "salad greens"
         ],
         "Link": "https://www.food.com/recipe/mexican-egg-salad-67582?scale=1"
-    },
-    {
-        "Name": "Mexican Egg Salad",
-        "Ingredients": [
-            "eggs",
-            "celery",
-            "pickle",
-            "seasoning salt",
-            "dry mustard",
-            "cumin seeds",
-            "white pepper",
-            "vinegar",
-            "mayonnaise",
-            "salad greens"
-        ],
-        "Link": "https://www.food.com/recipe/mexican-egg-salad-67582?scale=1"
-    },
-    {
-        "Name": "Mexican Egg Salad",
-        "Ingredients": [
-            "eggs",
-            "celery",
-            "pickle",
-            "seasoning salt",
-            "dry mustard",
-            "cumin seeds",
-            "white pepper",
-            "vinegar",
-            "mayonnaise",
-            "salad greens"
-        ],
-        "Link": "https://www.food.com/recipe/mexican-egg-salad-67582?scale=1"
     }
+
+
 ]
