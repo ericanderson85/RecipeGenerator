@@ -521,5 +521,20 @@
             "guacamole"
         ],
         "Link": "https://www.food.com/recipe/chicken-quesadillas-34924?scale=1"
+    },
+    {
+        "Name": "Thai Coconut Rice",
+        "Ingredients": [
+            "rice",
+            "coconut milk",
+            "water",
+            "salt",
+            "sugar",
+            "red pepper",
+            "turmeric",
+            "ginger",
+            "almonds"
+        ],
+        "Link": "https://www.food.com/recipe/thai-coconut-rice-63446?scale=1"
     }
 ]
