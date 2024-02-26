@@ -671,5 +671,15 @@
             "baking soda"
         ],
         "Link": "https://www.food.com/recipe/caramel-puff-corn-80247"
+    },
+    {
+        "Name": "Red Velvet Mug Cake",
+        "Ingredients": [
+            "red velvet cake mix",
+            "baking powder",
+            "cold water",
+            "chocolate chips"
+        ],
+        "Link": "https://www.food.com/recipe/red-velvet-mug-cake-527599"
     }
 ]
