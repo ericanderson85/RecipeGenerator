@@ -875,5 +875,22 @@
             "chocolate chips"
         ],
         "Link": "https://www.food.com/recipe/red-velvet-mug-cake-527599"
+    },
+    {
+        "Name": "High-Protein Tuna & Chickpea Salad Sandwich",
+        "Ingredients": [
+            "mayonnaise",
+            "chives",
+            "sriracha",
+            "garlic",
+            "lemon juice",
+            "pepper",
+            "chickpeas",
+            "tuna",
+            "red onion",
+            "bread",
+            "lettuce"
+        ],
+        "Link": "https://www.eatingwell.com/tuna-chickpea-salad-sandwich-8426727"
     }
 ]

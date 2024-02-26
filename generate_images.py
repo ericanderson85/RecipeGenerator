@@ -4,7 +4,7 @@ import json
 import requests
 import os
 
-client = openai.OpenAI(api_key = '')
+client = openai.OpenAI(api_key = '      ')
 
 # Read recipes from json
 with open("./static/recipes.json", "r") as json_file:
