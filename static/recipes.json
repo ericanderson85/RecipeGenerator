@@ -309,5 +309,581 @@
             "lemon juice"
         ],
         "Link": "https://www.eatingwell.com/spinach-artichoke-dip-soup-8430807"
+    },
+    {
+        "Name": "Feta Roast Chicken",
+        "Ingredients": [
+            "feta cheese",
+            "red pepper flakes",
+            "freshly ground black pepper",
+            "lemon",
+            "dried oregano",
+            "whole chicken",
+            "salt",
+            "fresh rosemary",
+            "fresh oregano",
+            "kosher salt",
+            "chicken broth"
+        ],
+        "Link": "https://www.allrecipes.com/recipe/268180/feta-roast-chicken/"
+    },
+    {
+        "Name": "Million Dollar Chicken",
+        "Ingredients": [
+            "fresh thyme",
+            "garlic, peeled (optional)",
+            "bay leaf",
+            "day-old sourdough french bread",
+            "creme fraiche",
+            "peeled and grated shallot",
+            "aleppo pepper",
+            "chive blossoms for garnish, chopped (optional)"
+        ],
+        "Link": "https://www.allrecipes.com/recipe/233953/million-dollar-chicken/"
+    },
+    {
+        "Name": "Caribbean-Spiced Roast Chicken",
+        "Ingredients": [
+            "fresh lime juice",
+            "rum",
+            "cayenne pepper",
+            "ground clove",
+            "ground cinnamon",
+            "ground ginger",
+            "black pepper",
+            "dried thyme leaves",
+            "vegetable oil"
+        ],
+        "Link": "https://www.allrecipes.com/recipe/107488/caribbean-spiced-roast-chicken/"
+    },
+    {
+        "Name": "Whole Chicken Pie",
+        "Ingredients": [
+            "carrot",
+            "celery",
+            "minced fresh rosemary",
+            "buttercrust pastry dough",
+            "all-purpose flour",
+            "egg",
+            "rose wine"
+        ],
+        "Link": "https://www.allrecipes.com/recipe/265562/whole-chicken-pie/"
+    },
+    {
+        "Name": "Roast Chicken And Vegetables",
+        "Ingredients": [
+            "red potatoes",
+            "sweet onion",
+            "margarine",
+            "minced garlic",
+            "whole chicken"
+        ],
+        "Link": "https://www.allrecipes.com/recipe/228844/roast-chicken-and-vegetables/"
+    },
+    {
+        "Name": "Juicy Roasted Chicken",
+        "Ingredients": [],
+        "Link": "https://www.allrecipes.com/recipe/83557/juicy-roasted-chicken/"
+    },
+    {
+        "Name": "Grilled Chicken Under A Brick",
+        "Ingredients": [],
+        "Link": "https://www.allrecipes.com/recipe/275044/grilled-chicken-under-a-brick/"
+    },
+    {
+        "Name": "Honey Mustard Roast Chicken",
+        "Ingredients": [
+            "yellow mustard",
+            "honey",
+            "seasoned rice wine vinegar",
+            "sriracha",
+            "smoked paprika",
+            "chicken stock",
+            "green onions"
+        ],
+        "Link": "https://www.allrecipes.com/recipe/279544/honey-mustard-roast-chicken/"
+    },
+    {
+        "Name": "Crispy Roasted Chicken",
+        "Ingredients": [
+            "caraway seeds",
+            "dried sage",
+            "fennel seeds",
+            "coriander seeds",
+            "dried rosemary",
+            "paprika",
+            "all-purpose flour",
+            "onion powder",
+            "broiler-fryer chicken"
+        ],
+        "Link": "https://www.allrecipes.com/recipe/228363/crispy-roasted-chicken/"
+    },
+    {
+        "Name": "Succulent Roast Chicken",
+        "Ingredients": [
+            "whole garlic cloves"
+        ],
+        "Link": "https://www.allrecipes.com/recipe/214479/succulent-roast-chicken/"
+    },
+    {
+        "Name": "Orange Herb Roasted Chicken",
+        "Ingredients": [
+            "navel oranges"
+        ],
+        "Link": "https://www.allrecipes.com/recipe/167419/orange-herb-roasted-chicken/"
+    },
+    {
+        "Name": "A Simply Perfect Roast Turkey",
+        "Ingredients": [
+            "turkey",
+            "unsalted butter"
+        ],
+        "Link": "https://www.allrecipes.com/recipe/56348/a-simply-perfect-roast-turkey/"
+    },
+    {
+        "Name": "Ground Beef Gyro",
+        "Ingredients": [
+            "yogurt",
+            "cucumber",
+            "onions",
+            "garlic cloves",
+            "sugar",
+            "ground beef",
+            "dried oregano",
+            "garlic powder",
+            "salt",
+            "pepper",
+            "pita bread",
+            "lettuce",
+            "tomatoes",
+            "onions"
+        ],
+        "Link": "https://www.food.com/recipe/ground-beef-gyros-30081"
+    },
+    {
+        "Name": "Asian Chicken Salad",
+        "Ingredients": [
+            "brown sugar",
+            "mandarin juice",
+            "soy sauce",
+            "sesame oil",
+            "vegetable oil",
+            "rice vinegar",
+            "romaine lettuce",
+            "chicken breast",
+            "green onions",
+            "carrot",
+            "noodles",
+            "almonds",
+            "mandarin oranges"
+        ],
+        "Link": "https://www.food.com/recipe/delicious-asian-chicken-salad-with-chow-mein-noodles-300183"
+    },
+    {
+        "Name": "Mexican Egg Salad",
+        "Ingredients": [
+            "eggs",
+            "celery",
+            "pickle",
+            "seasoning salt",
+            "dry mustard",
+            "cumin seeds",
+            "white pepper",
+            "vinegar",
+            "mayonnaise",
+            "salad greens"
+        ],
+        "Link": "https://www.food.com/recipe/mexican-egg-salad-67582?scale=1"
+    },
+    {
+        "Name": "Cornflake Potatoes",
+        "Ingredients": [
+            "potato",
+            "butter",
+            "salt",
+            "corn flakes"
+        ],
+        "Link": "https://www.food.com/recipe/easy-crispy-cornflake-potatoes-151959"
+    },
+    {
+        "Name": "Shredded Chicken Quesadillas",
+        "Ingredients": [
+            "cooked chicken",
+            "salsa",
+            "green onion",
+            "ground cumin",
+            "salt",
+            "dried oregano",
+            "tortilla",
+            "butter",
+            "cheese",
+            "sour cream",
+            "guacamole"
+        ],
+        "Link": "https://www.food.com/recipe/chicken-quesadillas-34924?scale=1"
+    },
+    {
+        "Name": "Thai Coconut Rice",
+        "Ingredients": [
+            "rice",
+            "coconut milk",
+            "water",
+            "salt",
+            "sugar",
+            "red pepper",
+            "turmeric",
+            "ginger",
+            "almonds"
+        ],
+        "Link": "https://www.food.com/recipe/thai-coconut-rice-63446?scale=1"
+    },
+    {
+        "Name": "Garlic Potatoes",
+        "Ingredients": [
+            "potatoes",
+            "butter",
+            "kosher salt",
+            "pepper",
+            "cheese",
+            "garlic butter",
+            "garlic cloves"
+        ],
+        "Link": "https://www.food.com/recipe/garlic-potatoes-13380"
+    },
+    {
+        "Name": "Pancakes",
+        "Ingredients": [
+            "eggs",
+            "butter",
+            "milk",
+            "flour",
+            "sugar",
+            "baking powder",
+            "salt"
+        ],
+        "Link": "https://www.food.com/recipe/pancakes-25690"
+    },
+    {
+        "Name": "Chocolate Chip Muffins",
+        "Ingredients": [
+            "flour",
+            "brown sugar",
+            "sugar",
+            "baking powder",
+            "salt",
+            "milk",
+            "butter",
+            "eggs",
+            "vanilla",
+            "chocolate chips",
+            "walnuts"
+        ],
+        "Link": "https://www.food.com/recipe/chocolate-chip-muffins-9326"
+    },
+    {
+        "Name": "Baked Beans",
+        "Ingredients": [
+            "pork and beans",
+            "onion",
+            "spicy brown mustard",
+            "brown sugar",
+            "ketchup",
+            "bacon"
+        ],
+        "Link": "https://www.food.com/recipe/baked-beans-39478"
+    },
+    {
+        "Name": "Baked Beans",
+        "Ingredients": [
+            "pork and beans",
+            "onion",
+            "spicy brown mustard",
+            "brown sugar",
+            "ketchup",
+            "bacon"
+        ],
+        "Link": "https://www.food.com/recipe/baked-beans-39478"
+    },
+    {
+        "Name": "Cranberry Oatmeal Muffins",
+        "Ingredients": [
+            "rolled oats",
+            "yogurt",
+            "oil",
+            "white sugar",
+            "brown sugar",
+            "egg",
+            "flour",
+            "salt",
+            "baking powder",
+            "baking soda",
+            "orange rind",
+            "cranberries"
+        ],
+        "Link": "https://www.food.com/recipe/cranberry-oatmeal-muffins-37861"
+    },
+    {
+        "Name": "Crispy Baked Chicken Tacos",
+        "Ingredients": [
+            "canola oil",
+            "ground chicken",
+            "sweet onion",
+            "garlic",
+            "chopped green chiles",
+            "chili powder",
+            "smoked paprika",
+            "dried oregano",
+            "ground cumin",
+            "cilantro",
+            "lime",
+            "salt",
+            "shredded cheese",
+            "tortillas",
+            "pico de gallo",
+            "guacamole",
+            "shredded lettuce",
+            "lime wedges"
+        ],
+        "Link": "https://damndelicious.net/2023/04/28/crispy-baked-chicken-tacos/"
+    },
+    {
+        "Name": "Hungarian Mushroom Soup",
+        "Ingredients": [
+            "unsalted butter",
+            "sweet onion",
+            "cremini mushrooms",
+            "shiitake mushrooms",
+            "dry white wine",
+            "vegetable stock",
+            "soy sauce",
+            "sweet paprika",
+            "dried dill",
+            "thyme",
+            "bay leaf",
+            "all-purpose flour",
+            "whole milk",
+            "sour cream",
+            "lemon zest",
+            "lemon juice",
+            "parsley leaves",
+            "salt"
+        ],
+        "Link": "https://damndelicious.net/2024/02/09/hungarian-mushroom-soup/"
+    },
+    {
+        "Name": "Chicken And Wild Rice Soup",
+        "Ingredients": [
+            "unsalted butter",
+            "cremini mushrooms",
+            "sweet onion",
+            "carrots",
+            "celery",
+            "garlic",
+            "thyme",
+            "chicken breast",
+            "chicken stock",
+            "wild rice",
+            "bay leaf",
+            "salt",
+            "parsley leaves"
+        ],
+        "Link": "https://damndelicious.net/2024/01/19/chicken-and-wild-rice-soup/"
+    },
+    {
+        "Name": "Perfect Pot Roast",
+        "Ingredients": [
+            "boneless chuck roast",
+            "salt",
+            "canola oil",
+            "sweet onion",
+            "tomato paste",
+            "garlic",
+            "dry red wine",
+            "beef stock",
+            "carrots",
+            "cremini mushrooms",
+            "thyme",
+            "rosemary",
+            "potatoes",
+            "parsley leaves"
+        ],
+        "Link": "https://damndelicious.net/2022/10/14/perfect-pot-roast/"
+    },
+    {
+        "Name": "Easy Shrimp Gumbo",
+        "Ingredients": [
+            "basmati rice",
+            "vegetable oil",
+            "smoked andouille sausage",
+            "unsalted butter",
+            "all-purpose flour",
+            "onion",
+            "green bell pepper",
+            "celery",
+            "garlic",
+            "chicken stock",
+            "tomatoes",
+            "worcestershire sauce",
+            "thyme",
+            "bay leaves",
+            "frozen sliced okra",
+            "medium shrimp",
+            "salt",
+            "parsley leaves",
+            "hot sauce"
+        ],
+        "Link": "https://damndelicious.net/2024/02/23/easy-shrimp-gumbo/"
+    },
+    {
+        "Name": "One Pot Greek Chicken And Orzo",
+        "Ingredients": [
+            "chicken thighs",
+            "salt",
+            "unsalted butter",
+            "large shallots",
+            "garlic",
+            "dried oregano",
+            "basil",
+            "paprika",
+            "dill",
+            "thyme",
+            "ground cinnamon",
+            "all-purpose flour",
+            "chicken stock",
+            "orzo pasta",
+            "baby spinach",
+            "cherry tomatoes",
+            "feta cheese"
+        ],
+        "Link": "https://damndelicious.net/2024/01/26/one-pot-greek-chicken-and-orzo/"
+    },
+    {
+        "Name": "Homestyle Chicken Noodle Soup",
+        "Ingredients": [
+            "unsalted butter",
+            "onion",
+            "carrots",
+            "celery",
+            "garlic",
+            "chicken stock",
+            "bay leaves",
+            "salt",
+            "chicken breast",
+            "wide egg noodles",
+            "parsley leaves",
+            "dill",
+            "lemon"
+        ],
+        "Link": "https://damndelicious.net/2020/01/25/homestyle-chicken-noodle-soup/"
+    },
+    {
+        "Name": "Instant Pot Coq Au Vin",
+        "Ingredients": [
+            "bacon",
+            "chicken thighs",
+            "salt",
+            "cremini mushrooms",
+            "shallots",
+            "garlic",
+            "all-purpose flour",
+            "tomato paste",
+            "dry red wine",
+            "chicken stock",
+            "carrots",
+            "thyme",
+            "parsley leaves"
+        ],
+        "Link": "https://damndelicious.net/2023/12/15/instant-pot-coq-au-vin/"
+    },
+    {
+        "Name": "Creamy Sausage Gnocchi",
+        "Ingredients": [
+            "olive oil",
+            "italian sausage",
+            "sweet onion",
+            "garlic",
+            "italian seasoning",
+            "beef stock",
+            "tomato sauce",
+            "cauliflower potato gnocchi",
+            "baby spinach",
+            "heavy cream",
+            "parmesan",
+            "salt",
+            "basil leaves"
+        ],
+        "Link": "https://damndelicious.net/2024/01/05/creamy-sausage-gnocchi/"
+    },
+    {
+        "Name": "Sesame Chicken Kabobs",
+        "Ingredients": [
+            "soy sauce",
+            "ketchup",
+            "honey",
+            "toasted sesame oil",
+            "mustard",
+            "rice wine vinegar",
+            "ginger",
+            "garlic",
+            "chicken thighs",
+            "canola oil",
+            "salt",
+            "green onions",
+            "toasted sesame seeds"
+        ],
+        "Link": "https://damndelicious.net/2023/07/07/sesame-chicken-kabobs/"
+    },
+    {
+        "Name": "Slow Cooker Beef Barbacoa",
+        "Ingredients": [
+            "cilantro leaves",
+            "apple cider vinegar",
+            "lime",
+            "chipotle peppers",
+            "garlic",
+            "cumin",
+            "oregano",
+            "chili powder",
+            "ground cloves",
+            "beef",
+            "salt",
+            "canola oil",
+            "beer"
+        ],
+        "Link": "https://damndelicious.net/2021/02/24/slow-cooker-beef-barbacoa/"
+    },
+    {
+        "Name": "Slow Cooker Olive Garden Pasta E Fagioli",
+        "Ingredients": [
+            "olive oil",
+            "italian sausage",
+            "sweet onion",
+            "chicken stock",
+            "tomato sauce",
+            "tomatoes",
+            "red kidney beans",
+            "cannellini beans",
+            "carrots",
+            "celery ribs",
+            "garlic",
+            "dried basil",
+            "dried oregano",
+            "dried thyme",
+            "salt",
+            "ditalini pasta",
+            "shaved parmesan",
+            "parsley leaves"
+        ],
+        "Link": "https://damndelicious.net/2020/10/27/slow-cooker-olive-garden-pasta-e-fagioli/"
+    },
+    {
+        "Name": "Red Velvet Mug Cake",
+        "Ingredients": [
+            "red velvet cake mix",
+            "baking powder",
+            "cold water",
+            "chocolate chips"
+        ],
+        "Link": "https://www.food.com/recipe/red-velvet-mug-cake-527599"
     }
 ]

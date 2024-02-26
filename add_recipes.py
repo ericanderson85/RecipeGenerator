@@ -1,10 +1,9 @@
 import json
 
 # Create a new recipe to add (( EDIT THESE ))
-NAME = "Pizza"
-INGREDIENTS = ["flour", "salt", "sugar", "yeast", "oil", "tomato sauce",
-               "italian seasoning", "garlic powder", "pepper", "pepperoni slices", "cheese"]
-LINK = "https://www.food.com/recipe/easy-and-quick-homemade-pizza-22754/"
+NAME = "red velvet mug cake"
+INGREDIENTS = ["red velvet cake mix", "baking powder", "cold water", "chocolate chips"]
+LINK = "https://www.food.com/recipe/red-velvet-mug-cake-527599"
 
 
 def add_recipe(name, ingredients, link):
