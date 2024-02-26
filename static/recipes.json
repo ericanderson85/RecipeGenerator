@@ -591,5 +591,35 @@
             "bacon"
         ],
         "Link": "https://www.food.com/recipe/baked-beans-39478"
+    },
+    {
+        "Name": "Baked Beans",
+        "Ingredients": [
+            "pork and beans",
+            "onion",
+            "spicy brown mustard",
+            "brown sugar",
+            "ketchup",
+            "bacon"
+        ],
+        "Link": "https://www.food.com/recipe/baked-beans-39478"
+    },
+    {
+        "Name": "Cranberry Oatmeal Muffins",
+        "Ingredients": [
+            "rolled oats",
+            "yogurt",
+            "oil",
+            "white sugar",
+            "brown sugar",
+            "egg",
+            "flour",
+            "salt",
+            "baking powder",
+            "baking soda",
+            "orange rind",
+            "cranberries"
+        ],
+        "Link": "https://www.food.com/recipe/cranberry-oatmeal-muffins-37861"
     }
 ]
