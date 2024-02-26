@@ -593,6 +593,18 @@
         "Link": "https://www.food.com/recipe/baked-beans-39478"
     },
     {
+        "Name": "Baked Beans",
+        "Ingredients": [
+            "pork and beans",
+            "onion",
+            "spicy brown mustard",
+            "brown sugar",
+            "ketchup",
+            "bacon"
+        ],
+        "Link": "https://www.food.com/recipe/baked-beans-39478"
+    },
+    {
         "Name": "Cranberry Oatmeal Muffins",
         "Ingredients": [
             "rolled oats",
@@ -611,75 +623,257 @@
         "Link": "https://www.food.com/recipe/cranberry-oatmeal-muffins-37861"
     },
     {
-        "Name": "Basic Batter Waffles",
+        "Name": "Crispy Baked Chicken Tacos",
         "Ingredients": [
-            "eggs",
-            "milk",
-            "vegetable oil",
+            "canola oil",
+            "ground chicken",
+            "sweet onion",
+            "garlic",
+            "chopped green chiles",
+            "chili powder",
+            "smoked paprika",
+            "dried oregano",
+            "ground cumin",
+            "cilantro",
+            "lime",
+            "salt",
+            "shredded cheese",
+            "tortillas",
+            "pico de gallo",
+            "guacamole",
+            "shredded lettuce",
+            "lime wedges"
+        ],
+        "Link": "https://damndelicious.net/2023/04/28/crispy-baked-chicken-tacos/"
+    },
+    {
+        "Name": "Hungarian Mushroom Soup",
+        "Ingredients": [
+            "unsalted butter",
+            "sweet onion",
+            "cremini mushrooms",
+            "shiitake mushrooms",
+            "dry white wine",
+            "vegetable stock",
+            "soy sauce",
+            "sweet paprika",
+            "dried dill",
+            "thyme",
+            "bay leaf",
             "all-purpose flour",
-            "baking powder",
-            "sugar",
-            "salt",
-            "vanilla",
-            "maple extract"
-        ],
-        "Link": "https://www.food.com/recipe/basic-batter-waffles-110683"
-    },
-    {
-        "Name": "Jiffy Corn Casserole",
-        "Ingredients": [
-            "cornbread mix",
-            "whole kernel corn",
-            "creamed corn",
+            "whole milk",
             "sour cream",
-            "butter"
+            "lemon zest",
+            "lemon juice",
+            "parsley leaves",
+            "salt"
         ],
-        "Link": "https://www.food.com/recipe/jiffy-corn-casserole-5-ingredients-easy-delicious-313521"
+        "Link": "https://damndelicious.net/2024/02/09/hungarian-mushroom-soup/"
     },
     {
-        "Name": "Creamed Corn",
+        "Name": "Chicken And Wild Rice Soup",
         "Ingredients": [
-            "frozen corn",
-            "water",
-            "butter",
-            "flour",
-            "milk",
-            "sugar"
-        ],
-        "Link": "https://www.food.com/recipe/creamed-corn-145165"
-    },
-    {
-        "Name": "Arabian Pita Bread",
-        "Ingredients": [
-            "instant yeast",
-            "water",
-            "sugar",
-            "flour",
+            "unsalted butter",
+            "cremini mushrooms",
+            "sweet onion",
+            "carrots",
+            "celery",
+            "garlic",
+            "thyme",
+            "chicken breast",
+            "chicken stock",
+            "wild rice",
+            "bay leaf",
             "salt",
-            "dry milk powder",
-            "oil"
+            "parsley leaves"
         ],
-        "Link": "https://www.food.com/recipe/arabian-pita-bread-17977"
+        "Link": "https://damndelicious.net/2024/01/19/chicken-and-wild-rice-soup/"
     },
     {
-        "Name": "Caramel Puff Corn",
+        "Name": "Perfect Pot Roast",
         "Ingredients": [
-            "puff corn",
-            "butter",
-            "brown sugar",
-            "corn syrup",
-            "baking soda"
+            "boneless chuck roast",
+            "salt",
+            "canola oil",
+            "sweet onion",
+            "tomato paste",
+            "garlic",
+            "dry red wine",
+            "beef stock",
+            "carrots",
+            "cremini mushrooms",
+            "thyme",
+            "rosemary",
+            "potatoes",
+            "parsley leaves"
         ],
-        "Link": "https://www.food.com/recipe/caramel-puff-corn-80247"
+        "Link": "https://damndelicious.net/2022/10/14/perfect-pot-roast/"
     },
     {
-        "Name": "Red Velvet Mug Cake",
+        "Name": "Easy Shrimp Gumbo",
         "Ingredients": [
-            "red velvet cake mix",
-            "baking powder",
-            "cold water",
-            "chocolate chips"
+            "basmati rice",
+            "vegetable oil",
+            "smoked andouille sausage",
+            "unsalted butter",
+            "all-purpose flour",
+            "onion",
+            "green bell pepper",
+            "celery",
+            "garlic",
+            "chicken stock",
+            "tomatoes",
+            "worcestershire sauce",
+            "thyme",
+            "bay leaves",
+            "frozen sliced okra",
+            "medium shrimp",
+            "salt",
+            "parsley leaves",
+            "hot sauce"
         ],
-        "Link": "https://www.food.com/recipe/red-velvet-mug-cake-527599"
+        "Link": "https://damndelicious.net/2024/02/23/easy-shrimp-gumbo/"
+    },
+    {
+        "Name": "One Pot Greek Chicken And Orzo",
+        "Ingredients": [
+            "chicken thighs",
+            "salt",
+            "unsalted butter",
+            "large shallots",
+            "garlic",
+            "dried oregano",
+            "basil",
+            "paprika",
+            "dill",
+            "thyme",
+            "ground cinnamon",
+            "all-purpose flour",
+            "chicken stock",
+            "orzo pasta",
+            "baby spinach",
+            "cherry tomatoes",
+            "feta cheese"
+        ],
+        "Link": "https://damndelicious.net/2024/01/26/one-pot-greek-chicken-and-orzo/"
+    },
+    {
+        "Name": "Homestyle Chicken Noodle Soup",
+        "Ingredients": [
+            "unsalted butter",
+            "onion",
+            "carrots",
+            "celery",
+            "garlic",
+            "chicken stock",
+            "bay leaves",
+            "salt",
+            "chicken breast",
+            "wide egg noodles",
+            "parsley leaves",
+            "dill",
+            "lemon"
+        ],
+        "Link": "https://damndelicious.net/2020/01/25/homestyle-chicken-noodle-soup/"
+    },
+    {
+        "Name": "Instant Pot Coq Au Vin",
+        "Ingredients": [
+            "bacon",
+            "chicken thighs",
+            "salt",
+            "cremini mushrooms",
+            "shallots",
+            "garlic",
+            "all-purpose flour",
+            "tomato paste",
+            "dry red wine",
+            "chicken stock",
+            "carrots",
+            "thyme",
+            "parsley leaves"
+        ],
+        "Link": "https://damndelicious.net/2023/12/15/instant-pot-coq-au-vin/"
+    },
+    {
+        "Name": "Creamy Sausage Gnocchi",
+        "Ingredients": [
+            "olive oil",
+            "italian sausage",
+            "sweet onion",
+            "garlic",
+            "italian seasoning",
+            "beef stock",
+            "tomato sauce",
+            "cauliflower potato gnocchi",
+            "baby spinach",
+            "heavy cream",
+            "parmesan",
+            "salt",
+            "basil leaves"
+        ],
+        "Link": "https://damndelicious.net/2024/01/05/creamy-sausage-gnocchi/"
+    },
+    {
+        "Name": "Sesame Chicken Kabobs",
+        "Ingredients": [
+            "soy sauce",
+            "ketchup",
+            "honey",
+            "toasted sesame oil",
+            "mustard",
+            "rice wine vinegar",
+            "ginger",
+            "garlic",
+            "chicken thighs",
+            "canola oil",
+            "salt",
+            "green onions",
+            "toasted sesame seeds"
+        ],
+        "Link": "https://damndelicious.net/2023/07/07/sesame-chicken-kabobs/"
+    },
+    {
+        "Name": "Slow Cooker Beef Barbacoa",
+        "Ingredients": [
+            "cilantro leaves",
+            "apple cider vinegar",
+            "lime",
+            "chipotle peppers",
+            "garlic",
+            "cumin",
+            "oregano",
+            "chili powder",
+            "ground cloves",
+            "beef",
+            "salt",
+            "canola oil",
+            "beer"
+        ],
+        "Link": "https://damndelicious.net/2021/02/24/slow-cooker-beef-barbacoa/"
+    },
+    {
+        "Name": "Slow Cooker Olive Garden Pasta E Fagioli",
+        "Ingredients": [
+            "olive oil",
+            "italian sausage",
+            "sweet onion",
+            "chicken stock",
+            "tomato sauce",
+            "tomatoes",
+            "red kidney beans",
+            "cannellini beans",
+            "carrots",
+            "celery ribs",
+            "garlic",
+            "dried basil",
+            "dried oregano",
+            "dried thyme",
+            "salt",
+            "ditalini pasta",
+            "shaved parmesan",
+            "parsley leaves"
+        ],
+        "Link": "https://damndelicious.net/2020/10/27/slow-cooker-olive-garden-pasta-e-fagioli/"
     }
 ]
