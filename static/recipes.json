@@ -647,5 +647,18 @@
             "sugar"
         ],
         "Link": "https://www.food.com/recipe/creamed-corn-145165"
+    },
+    {
+        "Name": "Arabian Pita Bread",
+        "Ingredients": [
+            "instant yeast",
+            "water",
+            "sugar",
+            "flour",
+            "salt",
+            "dry milk powder",
+            "oil"
+        ],
+        "Link": "https://www.food.com/recipe/arabian-pita-bread-17977"
     }
 ]
