@@ -1,9 +1,9 @@
 import json
 
 # Create a new recipe to add (( EDIT THESE ))
-NAME = "cornflake potatoes"
-INGREDIENTS = ["potato", "butter", "salt", "corn flakes"]
-LINK = "https://www.food.com/recipe/easy-crispy-cornflake-potatoes-151959"
+NAME = "Shredded Chicken Quesadillas"
+INGREDIENTS = ["cooked chicken", "salsa", "green onion", "ground cumin", "salt", "dried oregano", "tortilla", "butter", "cheese", "sour cream", "guacamole"]
+LINK = "https://www.food.com/recipe/chicken-quesadillas-34924?scale=1"
 
 
 def add_recipe(name, ingredients, link):

@@ -496,22 +496,6 @@
         "Link": "https://www.food.com/recipe/mexican-egg-salad-67582?scale=1"
     },
     {
-        "Name": "Mexican Egg Salad",
-        "Ingredients": [
-            "eggs",
-            "celery",
-            "pickle",
-            "seasoning salt",
-            "dry mustard",
-            "cumin seeds",
-            "white pepper",
-            "vinegar",
-            "mayonnaise",
-            "salad greens"
-        ],
-        "Link": "https://www.food.com/recipe/mexican-egg-salad-67582?scale=1"
-    },
-    {
         "Name": "Cornflake Potatoes",
         "Ingredients": [
             "potato",
@@ -520,5 +504,22 @@
             "corn flakes"
         ],
         "Link": "https://www.food.com/recipe/easy-crispy-cornflake-potatoes-151959"
+    },
+    {
+        "Name": "Shredded Chicken Quesadillas",
+        "Ingredients": [
+            "cooked chicken",
+            "salsa",
+            "green onion",
+            "ground cumin",
+            "salt",
+            "dried oregano",
+            "tortilla",
+            "butter",
+            "cheese",
+            "sour cream",
+            "guacamole"
+        ],
+        "Link": "https://www.food.com/recipe/chicken-quesadillas-34924?scale=1"
     }
 ]
