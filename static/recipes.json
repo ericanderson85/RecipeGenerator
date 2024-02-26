@@ -562,5 +562,22 @@
             "salt"
         ],
         "Link": "https://www.food.com/recipe/pancakes-25690"
+    },
+    {
+        "Name": "Chocolate Chip Muffins",
+        "Ingredients": [
+            "flour",
+            "brown sugar",
+            "sugar",
+            "baking powder",
+            "salt",
+            "milk",
+            "butter",
+            "eggs",
+            "vanilla",
+            "chocolate chips",
+            "walnuts"
+        ],
+        "Link": "https://www.food.com/recipe/chocolate-chip-muffins-9326"
     }
 ]
