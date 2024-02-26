@@ -660,5 +660,16 @@
             "oil"
         ],
         "Link": "https://www.food.com/recipe/arabian-pita-bread-17977"
+    },
+    {
+        "Name": "Caramel Puff Corn",
+        "Ingredients": [
+            "puff corn",
+            "butter",
+            "brown sugar",
+            "corn syrup",
+            "baking soda"
+        ],
+        "Link": "https://www.food.com/recipe/caramel-puff-corn-80247"
     }
 ]
