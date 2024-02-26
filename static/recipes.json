@@ -635,5 +635,17 @@
             "butter"
         ],
         "Link": "https://www.food.com/recipe/jiffy-corn-casserole-5-ingredients-easy-delicious-313521"
+    },
+    {
+        "Name": "Creamed Corn",
+        "Ingredients": [
+            "frozen corn",
+            "water",
+            "butter",
+            "flour",
+            "milk",
+            "sugar"
+        ],
+        "Link": "https://www.food.com/recipe/creamed-corn-145165"
     }
 ]
