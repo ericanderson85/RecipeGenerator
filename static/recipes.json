@@ -536,5 +536,18 @@
             "almonds"
         ],
         "Link": "https://www.food.com/recipe/thai-coconut-rice-63446?scale=1"
+    },
+    {
+        "Name": "Garlic Potatoes",
+        "Ingredients": [
+            "potatoes",
+            "butter",
+            "kosher salt",
+            "pepper",
+            "cheese",
+            "garlic butter",
+            "garlic cloves"
+        ],
+        "Link": "https://www.food.com/recipe/garlic-potatoes-13380"
     }
 ]

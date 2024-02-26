@@ -1,9 +1,9 @@
 import json
 
 # Create a new recipe to add (( EDIT THESE ))
-NAME = "Thai Coconut Rice"
-INGREDIENTS = ["rice", "coconut milk", "water", "salt", "sugar", "red pepper", "turmeric", "ginger", "almonds"]
-LINK = "https://www.food.com/recipe/thai-coconut-rice-63446?scale=1"
+NAME = "garlic potatoes"
+INGREDIENTS = ["potatoes", "butter", "kosher salt", "pepper", "cheese", "garlic butter", "garlic cloves"]
+LINK = "https://www.food.com/recipe/garlic-potatoes-13380"
 
 
 def add_recipe(name, ingredients, link):
