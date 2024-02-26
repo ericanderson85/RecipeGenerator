@@ -549,5 +549,18 @@
             "garlic cloves"
         ],
         "Link": "https://www.food.com/recipe/garlic-potatoes-13380"
+    },
+    {
+        "Name": "Pancakes",
+        "Ingredients": [
+            "eggs",
+            "butter",
+            "milk",
+            "flour",
+            "sugar",
+            "baking powder",
+            "salt"
+        ],
+        "Link": "https://www.food.com/recipe/pancakes-25690"
     }
 ]
