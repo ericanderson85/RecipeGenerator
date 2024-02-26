@@ -621,5 +621,20 @@
             "cranberries"
         ],
         "Link": "https://www.food.com/recipe/cranberry-oatmeal-muffins-37861"
+    },
+    {
+        "Name": "Basic Batter Waffles",
+        "Ingredients": [
+            "eggs",
+            "milk",
+            "vegetable oil",
+            "all-purpose flour",
+            "baking powder",
+            "sugar",
+            "salt",
+            "vanilla",
+            "maple extract"
+        ],
+        "Link": "https://www.food.com/recipe/basic-batter-waffles-110683"
     }
 ]
