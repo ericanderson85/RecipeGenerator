@@ -4,7 +4,7 @@ import json
 import requests
 import os
 
-openai.api_key = ''
+client = openai.OpenAI(api_key = '')
 
 # Read recipes from json
 with open("./static/recipes.json", "r") as json_file:
@@ -17,7 +17,7 @@ for recipe in recipes_list[10:]:
     if f"{file_name}.jpg" in os.listdir("./static/images"):
         continue
     try:
-        response = openai.images.generate(
+        response = client.images.generate(
             model="dall-e-2",
             prompt=recipe_name,
             size="512x512",
@@ -32,7 +32,7 @@ for recipe in recipes_list[10:]:
         else:
             print(f"Failed to download {file_name}.jpg")
             print(url)
-    except openai.OpenAIError as e:
+    except openai.OpenAIError:
         print(f"Error creating {file_name}.jpg")
     # Wait 15 seconds for the next API call
     time.sleep(15)
