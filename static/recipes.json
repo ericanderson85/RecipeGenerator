@@ -226,7 +226,7 @@
         "Ingredients": [
             "avocados",
             "garlic",
-            "onion",
+            "onions",
             "lime juice",
             "cilantro",
             "tomatoes"
@@ -289,7 +289,7 @@
             "ginger",
             "green cabbage",
             "olive oil",
-            "pepper",
+            "peppers",
             "scallion"
         ],
         "Link": "https://www.eatingwell.com/huli-huli-cabbage-8430981"
@@ -300,7 +300,7 @@
             "cream cheese",
             "milk",
             "olive oil",
-            "yellow onion",
+            "yellow onions",
             "garlic",
             "spinach",
             "vegetable broth",
@@ -315,8 +315,8 @@
         "Ingredients": [
             "feta cheese",
             "red pepper flakes",
-            "freshly ground black pepper",
-            "lemon",
+            "freshly ground black peppers",
+            "lemons",
             "dried oregano",
             "whole chicken",
             "salt",
@@ -330,13 +330,13 @@
     {
         "Name": "Million Dollar Chicken",
         "Ingredients": [
-            "fresh thyme",
+            "fresh thymes",
             "garlic, peeled (optional)",
-            "bay leaf",
+            "bay leafs",
             "day-old sourdough french bread",
             "creme fraiche",
             "peeled and grated shallot",
-            "aleppo pepper",
+            "aleppo peppers",
             "chive blossoms for garnish, chopped (optional)"
         ],
         "Link": "https://www.allrecipes.com/recipe/233953/million-dollar-chicken/"
@@ -346,11 +346,11 @@
         "Ingredients": [
             "fresh lime juice",
             "rum",
-            "cayenne pepper",
-            "ground clove",
+            "cayenne peppers",
+            "ground cloves",
             "ground cinnamon",
             "ground ginger",
-            "black pepper",
+            "black peppers",
             "dried thyme leaves",
             "vegetable oil"
         ],
@@ -364,7 +364,7 @@
             "minced fresh rosemary",
             "buttercrust pastry dough",
             "all-purpose flour",
-            "egg",
+            "eggs",
             "rose wine"
         ],
         "Link": "https://www.allrecipes.com/recipe/265562/whole-chicken-pie/"
@@ -373,7 +373,7 @@
         "Name": "Roast Chicken And Vegetables",
         "Ingredients": [
             "red potatoes",
-            "sweet onion",
+            "sweet onions",
             "margarine",
             "minced garlic",
             "whole chicken"
@@ -434,7 +434,7 @@
         "Name": "Ground Beef Gyro",
         "Ingredients": [
             "yogurt",
-            "cucumber",
+            "cucumbers",
             "onions",
             "garlic cloves",
             "sugar",
@@ -442,11 +442,10 @@
             "dried oregano",
             "garlic powder",
             "salt",
-            "pepper",
+            "peppers",
             "pita bread",
             "lettuce",
-            "tomatoes",
-            "onions"
+            "tomatoes"
         ],
         "Link": "https://www.food.com/recipe/ground-beef-gyros-30081"
     },
@@ -474,11 +473,11 @@
         "Ingredients": [
             "eggs",
             "celery",
-            "pickle",
+            "pickles",
             "seasoning salt",
             "dry mustard",
             "cumin seeds",
-            "white pepper",
+            "white peppers",
             "vinegar",
             "mayonnaise",
             "salad greens"
@@ -488,7 +487,7 @@
     {
         "Name": "Cornflake Potatoes",
         "Ingredients": [
-            "potato",
+            "potatoes",
             "butter",
             "salt",
             "corn flakes"
@@ -500,11 +499,11 @@
         "Ingredients": [
             "cooked chicken",
             "salsa",
-            "green onion",
+            "green onions",
             "ground cumin",
             "salt",
             "dried oregano",
-            "tortilla",
+            "tortillas",
             "butter",
             "cheese",
             "sour cream",
@@ -520,7 +519,7 @@
             "water",
             "salt",
             "sugar",
-            "red pepper",
+            "red peppers",
             "turmeric",
             "ginger",
             "almonds"
@@ -533,7 +532,7 @@
             "potatoes",
             "butter",
             "kosher salt",
-            "pepper",
+            "peppers",
             "cheese",
             "garlic butter",
             "garlic cloves"
@@ -574,7 +573,7 @@
         "Name": "Baked Beans",
         "Ingredients": [
             "pork and beans",
-            "onion",
+            "onions",
             "spicy brown mustard",
             "brown sugar",
             "ketchup",
@@ -586,7 +585,7 @@
         "Name": "Baked Beans",
         "Ingredients": [
             "pork and beans",
-            "onion",
+            "onions",
             "spicy brown mustard",
             "brown sugar",
             "ketchup",
@@ -602,12 +601,12 @@
             "oil",
             "white sugar",
             "brown sugar",
-            "egg",
+            "eggs",
             "flour",
             "salt",
             "baking powder",
             "baking soda",
-            "orange rind",
+            "orange rinds",
             "cranberries"
         ],
         "Link": "https://www.food.com/recipe/cranberry-oatmeal-muffins-37861"
@@ -617,9 +616,9 @@
         "Ingredients": [
             "canola oil",
             "ground chicken",
-            "sweet onion",
+            "sweet onions",
             "garlic",
-            "chopped green chiles",
+            "chopped green chilis",
             "chili powder",
             "smoked paprika",
             "dried oregano",
@@ -640,18 +639,18 @@
         "Name": "Hungarian Mushroom Soup",
         "Ingredients": [
             "unsalted butter",
-            "sweet onion",
+            "sweet onions",
             "cremini mushrooms",
             "shiitake mushrooms",
             "dry white wine",
             "vegetable stock",
             "soy sauce",
             "sweet paprika",
-            "dried dill",
-            "thyme",
-            "bay leaf",
+            "dried dills",
+            "thymes",
+            "bay leafs",
             "all-purpose flour",
-            "whole milk",
+            "milk",
             "sour cream",
             "lemon zest",
             "lemon juice",
@@ -665,15 +664,15 @@
         "Ingredients": [
             "unsalted butter",
             "cremini mushrooms",
-            "sweet onion",
+            "sweet onions",
             "carrots",
             "celery",
             "garlic",
-            "thyme",
+            "thymes",
             "chicken breast",
             "chicken stock",
             "wild rice",
-            "bay leaf",
+            "bay leafs",
             "salt",
             "parsley leaves"
         ],
@@ -685,14 +684,14 @@
             "boneless chuck roast",
             "salt",
             "canola oil",
-            "sweet onion",
+            "sweet onions",
             "tomato paste",
             "garlic",
             "dry red wine",
             "beef stock",
             "carrots",
             "cremini mushrooms",
-            "thyme",
+            "thymes",
             "rosemary",
             "potatoes",
             "parsley leaves"
@@ -707,14 +706,14 @@
             "smoked andouille sausage",
             "unsalted butter",
             "all-purpose flour",
-            "onion",
-            "green bell pepper",
+            "onions",
+            "green bell peppers",
             "celery",
             "garlic",
             "chicken stock",
             "tomatoes",
             "worcestershire sauce",
-            "thyme",
+            "thymes",
             "bay leaves",
             "frozen sliced okra",
             "medium shrimp",
@@ -735,8 +734,8 @@
             "dried oregano",
             "basil",
             "paprika",
-            "dill",
-            "thyme",
+            "dills",
+            "thymes",
             "ground cinnamon",
             "all-purpose flour",
             "chicken stock",
@@ -751,7 +750,7 @@
         "Name": "Homestyle Chicken Noodle Soup",
         "Ingredients": [
             "unsalted butter",
-            "onion",
+            "onions",
             "carrots",
             "celery",
             "garlic",
@@ -761,8 +760,8 @@
             "chicken breast",
             "wide egg noodles",
             "parsley leaves",
-            "dill",
-            "lemon"
+            "dills",
+            "lemons"
         ],
         "Link": "https://damndelicious.net/2020/01/25/homestyle-chicken-noodle-soup/"
     },
@@ -780,7 +779,7 @@
             "dry red wine",
             "chicken stock",
             "carrots",
-            "thyme",
+            "thymes",
             "parsley leaves"
         ],
         "Link": "https://damndelicious.net/2023/12/15/instant-pot-coq-au-vin/"
@@ -790,7 +789,7 @@
         "Ingredients": [
             "olive oil",
             "italian sausage",
-            "sweet onion",
+            "sweet onions",
             "garlic",
             "italian seasoning",
             "beef stock",
@@ -847,7 +846,7 @@
         "Ingredients": [
             "olive oil",
             "italian sausage",
-            "sweet onion",
+            "sweet onions",
             "chicken stock",
             "tomato sauce",
             "tomatoes",
@@ -858,7 +857,7 @@
             "garlic",
             "dried basil",
             "dried oregano",
-            "dried thyme",
+            "dried thyme leaves",
             "salt",
             "ditalini pasta",
             "shaved parmesan",
@@ -871,7 +870,7 @@
         "Ingredients": [
             "red velvet cake mix",
             "baking powder",
-            "cold water",
+            "water",
             "chocolate chips"
         ],
         "Link": "https://www.food.com/recipe/red-velvet-mug-cake-527599"
@@ -884,10 +883,10 @@
             "sriracha",
             "garlic",
             "lemon juice",
-            "pepper",
+            "peppers",
             "chickpeas",
             "tuna",
-            "red onion",
+            "red onions",
             "bread",
             "lettuce"
         ],
