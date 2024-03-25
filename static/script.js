@@ -65,6 +65,20 @@ function addIngredient(ingredient) {
     }
     inputElement.value = '';
     listElement.hidden = true;
+    if (ingredientsElement.children.length > 28) {
+        Array.from(ingredientsElement.children).forEach(resizeSmallest);
+    }
+    else if (ingredientsElement.children.length > 15) {
+        Array.from(ingredientsElement.children).forEach(resize);
+    }
+}
+
+function resize(item) {
+    item.style.fontSize = "1.5vw";
+}
+
+function resizeSmallest(item) {
+    item.style.fontSize = "1vw";
 }
 
 function hideSearch() {
