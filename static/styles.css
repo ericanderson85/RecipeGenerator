@@ -202,6 +202,26 @@ u:before {
     transform: scale(1.05);
 }
 
+.loginButton {
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.registerButton {
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.logoutButton {
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
 
 @media (min-width: 1081px) {
 
