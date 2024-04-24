@@ -1,3 +1,8 @@
+const WHITE = "#fcfcfc";
+const BEIGE = "#f7e7da";
+const RED = "#9B2915";
+const BLUE = "#0c496c";
+
 let ingredients = [];
 fetch('/static/ingredients.json')
     .then(response => response.json())
@@ -111,12 +116,15 @@ function updateHighlightedIndex(x) {
         return;
     }
     if (x == 0) {
-        listElement.children[highlightedIndex].style.backgroundColor = '#EABF9F';
+        listElement.children[highlightedIndex].style.backgroundColor = BLUE;
+        listElement.children[highlightedIndex].style.color = WHITE;
         return;
     }
-    listElement.children[highlightedIndex].style.backgroundColor = '#f7f3e8';
+    listElement.children[highlightedIndex].style.backgroundColor = WHITE;
+    listElement.children[highlightedIndex].style.color = BLUE;
     highlightedIndex += x;
-    listElement.children[highlightedIndex].style.backgroundColor = '#EABF9F';
+    listElement.children[highlightedIndex].style.backgroundColor = BLUE;
+    listElement.children[highlightedIndex].style.color = WHITE;
 }
 
 async function send_ingredients() {
@@ -164,14 +172,18 @@ inputElement.addEventListener('keydown', function (e) {
 
 listElement.addEventListener('mouseover', function (event) {
     if (event.target && event.target.matches('.list-item')) {
-        listElement.children[highlightedIndex].style.backgroundColor = '#f7f3e8';
-        event.target.style.backgroundColor = '#EABF9F';
+        listElement.children[highlightedIndex].style.backgroundColor = WHITE;
+        listElement.children[highlightedIndex].style.color = BLUE;
+
+        event.target.style.backgroundColor = BLUE;
+        event.target.style.color = WHITE;
     }
 });
 
 listElement.addEventListener('mouseout', function (event) {
     if (event.target && event.target.matches('.list-item')) {
-        event.target.style.backgroundColor = '#f7f3e8';
+        event.target.style.backgroundColor = WHITE;
+        event.target.style.color = BLUE;
     }
     updateHighlightedIndex(0);
 });

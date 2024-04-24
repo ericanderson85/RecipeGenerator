@@ -30,8 +30,8 @@ def loader_user(user_id):
 # This method recieves the user input from the front end
 @app.route('/receive_ingredients', methods=['POST'])
 def receive_ingredients():
-    recipe_list, almost_recipes = recipes(request.json)
-    return render_template('recipes.html', recipe_list=recipe_list, almost_recipes=almost_recipes)
+    recipe_list = recipes(request.json)
+    return render_template('recipes.html', recipe_list=recipe_list)
 
 @app.route('/register', methods=["GET", "POST"])
 def register():

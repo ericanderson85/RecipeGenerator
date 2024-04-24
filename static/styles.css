@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
 :root {
-    --cream: #fffcf2;
-    --light-cream: #f7f3e8;
-    --light-brown: #EABF9F;
-    --dark-brown: #B68973;
-    --red: #da6e6e;
-    --black: #1E212D;
+    --white: #fcfcfc;
+    --beige: #f7e7da;
+    --red: #9B2915;
+    --blue: #0c496c;
 }
 
 * {
@@ -14,14 +12,11 @@
     font-weight: 400;
     margin: 0;
     transition: transform 300ms ease;
+    color: var(--blue);
 }
 
 body {
-    overflow-y: scroll;
-    scrollbar-gutter: stable both-edges;
-    background-color: var(--cream);
-    display: flex;
-    flex-direction: column;
+    background-color: var(--beige);
 }
 
 a {
@@ -30,21 +25,11 @@ a {
 }
 
 .title {
-    display: block;
+    background-color: var(--beige);
     text-align: center;
     font-size: 4vw;
-    color: var(--black);
     font-weight: 600;
-    text-decoration: underline;
-    text-decoration-color: var(--dark-brown);
-    text-decoration-thickness: 0.4vw;
     padding: 2.5vw 0px 1.5vw;
-}
-
-h1 u:after,
-u:before {
-    /* Extends underline */
-    content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
 }
 
 #form {
@@ -52,7 +37,7 @@ u:before {
     display: flex;
     width: 50%;
     margin-left: 25%;
-    background-color: var(--light-brown);
+    background-color: var(--beige);
     padding: 0.4vw;
     border-radius: 40px;
     min-height: 35px;
@@ -79,7 +64,6 @@ u:before {
     text-transform: capitalize;
     text-align: end;
     font-size: 2vw;
-    color: var(--black);
     padding: 3px 0px 0px 30px;
     cursor: pointer;
 }
@@ -95,12 +79,11 @@ u:before {
     border: none;
     box-sizing: border-box;
     font-size: 2vw;
-    color: var(--black);
-    border: .12vw solid var(--dark-brown);
+    border: .12vw solid var(--blue);
 }
 
 .text-box {
-    background-color: var(--light-cream);
+    background-color: var(--white);
     width: 100%;
     padding-left: 3%;
     border-top-left-radius: 40px;
@@ -115,15 +98,16 @@ u:before {
     border-top-right-radius: 40px;
     min-height: 35px;
     border-bottom-right-radius: 40px;
-    background-color: var(--red);
+    background-color: var(--blue);
+    color: var(--white);
     transition: all .2s;
     cursor: pointer;
 }
 
 .search:hover {
     width: 23%;
-    color: black;
-    background-color: #d76363;
+    color: var(--white);
+    background-color: var(--blue);
 
 }
 
@@ -139,7 +123,7 @@ u:before {
     padding: 0;
     margin: 0;
     max-height: 340px;
-    background-color: var(--light-cream);
+    background-color: var(--white);
     width: calc(100% - 4vw);
     overflow-y: auto;
 }
@@ -147,19 +131,18 @@ u:before {
 .autocomplete-list li {
     font-size: 2vw;
     text-transform: capitalize;
-    color: var(--black);
     padding: 0.5vw;
-    border-right: .46vw solid var(--light-brown);
-    border-left: .46vw solid var(--light-brown);
+    border-right: .46vw solid var(--beige);
+    border-left: .46vw solid var(--beige);
     cursor: pointer;
 }
 
 .autocomplete-list li:first-child {
-    border-top: .46vw solid var(--light-brown);
+    border-top: .46vw solid var(--beige);
 }
 
 .autocomplete-list li:last-child {
-    border-bottom: .46vw solid var(--light-brown);
+    border-bottom: .46vw solid var(--beige);
 }
 
 
@@ -197,40 +180,53 @@ u:before {
     flex-shrink: 0;
 }
 
-.title:hover,
 .recipe:hover {
     transform: scale(1.05);
 }
 
-.loginButton {
-    float: right;
-    padding: 10px;
-    margin: 10px;
-    cursor: pointer;
+.header-container {
+    margin: 12px;
 }
 
-.registerButton {
-    float: right;
-    padding: 10px;
-    margin: 10px;
-    cursor: pointer;
+header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.logoutButton {
-    float: right;
-    padding: 10px;
-    margin: 10px;
-    cursor: pointer;
+
+nav {
+    flex-grow: 1;
+    max-width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
 }
 
-@media (min-width: 1081px) {
-
-    a:nth-child(4n+1),
-    a:nth-child(4n+2) {
-        background-color: #fdf5e7;
-    }
+.header {
+    font-size: 1.125rem;
 }
 
+.logo {
+    max-width: 10rem;
+    flex-grow: 1;
+    text-align: left;
+}
+
+.login {
+    max-width: 10rem;
+    flex-grow: 1;
+    text-align: right;
+}
+
+.header-border {
+    height: 1px;
+    width: 100%;
+    background-color: var(--blue);
+    opacity: 50%;
+}
 
 @media (max-width: 1080px) {
 
@@ -241,20 +237,11 @@ u:before {
     .recipes-container {
         grid-template-columns: 1fr;
     }
-
-    a:nth-child(odd) {
-        background-color: #fdf5e7;
-    }
 }
 
 @media (max-width: 600px) {
     .title {
         font-size: calc(2vw + 20px);
-    }
-
-    .title::after,
-    .title::before {
-        content: "\00a0\00a0";
     }
 
     .recipe img {
