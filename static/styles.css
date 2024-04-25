@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
 :root {
-    --white: #fcfcfc;
-    --beige: #f7e7da;
-    --red: #9B2915;
-    --blue: #0c496c;
+    --white: #fcfcfc;  /* Off-white */
+    --background: #f7e7da;  /* Color of the website background */
+    --primary: #0c496c;  /* Primary text color of the website */
+    --red: #9B2915;  /* Used for removing ingredients */
 }
 
 * {
@@ -12,11 +12,11 @@
     font-weight: 400;
     margin: 0;
     transition: transform 300ms ease;
-    color: var(--blue);
+    color: var(--primary);
 }
 
 body {
-    background-color: var(--beige);
+    background-color: var(--background);
 }
 
 a {
@@ -25,7 +25,7 @@ a {
 }
 
 .title {
-    background-color: var(--beige);
+    background-color: var(--background);
     text-align: center;
     font-size: 4vw;
     font-weight: 600;
@@ -37,7 +37,7 @@ a {
     display: flex;
     width: 50%;
     margin-left: 25%;
-    background-color: var(--beige);
+    background-color: var(--background);
     padding: 0.4vw;
     border-radius: 40px;
     min-height: 35px;
@@ -79,7 +79,7 @@ a {
     border: none;
     box-sizing: border-box;
     font-size: 2vw;
-    border: .12vw solid var(--blue);
+    border: .12vw solid var(--primary);
 }
 
 .text-box {
@@ -98,7 +98,7 @@ a {
     border-top-right-radius: 40px;
     min-height: 35px;
     border-bottom-right-radius: 40px;
-    background-color: var(--blue);
+    background-color: var(--primary);
     color: var(--white);
     transition: all .2s;
     cursor: pointer;
@@ -107,7 +107,7 @@ a {
 .search:hover {
     width: 23%;
     color: var(--white);
-    background-color: var(--blue);
+    background-color: var(--primary);
 
 }
 
@@ -132,17 +132,17 @@ a {
     font-size: 2vw;
     text-transform: capitalize;
     padding: 0.5vw;
-    border-right: .46vw solid var(--beige);
-    border-left: .46vw solid var(--beige);
+    border-right: .46vw solid var(--background);
+    border-left: .46vw solid var(--background);
     cursor: pointer;
 }
 
 .autocomplete-list li:first-child {
-    border-top: .46vw solid var(--beige);
+    border-top: .46vw solid var(--background);
 }
 
 .autocomplete-list li:last-child {
-    border-bottom: .46vw solid var(--beige);
+    border-bottom: .46vw solid var(--background);
 }
 
 
@@ -224,7 +224,7 @@ nav {
 .header-border {
     height: 1px;
     width: 100%;
-    background-color: var(--blue);
+    background-color: var(--primary);
     opacity: 50%;
 }
 
