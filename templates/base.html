@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Generator</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <div class="header-container">
+      <header>
+        <!-- <a href="/"><img class="logo" src="logo.png" alt="website logo" /></a> -->
+
+        <!-- Placeholder for logo -->
+        <div class="logo">
+          <a class="header" href="/">Recipe Generator</a>
+        </div>
+
+        <nav>
+          <a class="header" href="/">All Recipes</a>
+          <a class="header" href="/">Search</a>
+          <a class="header" href="/">Top Recipes</a>
+        </nav>
+        <div class="login">
+          <a class="header" href="/login">Log In</a>
+        </div>
+      </header>
+    </div>
+    <div class="header-border"></div>
+
+    {% block content %} {% endblock %}
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>

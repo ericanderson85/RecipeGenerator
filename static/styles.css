@@ -211,6 +211,7 @@ nav {
 
 .logo {
     max-width: 10rem;
+    height: auto;
     flex-grow: 1;
     text-align: left;
 }
