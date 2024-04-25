@@ -1,7 +1,9 @@
-const WHITE = "#fcfcfc";
-const BEIGE = "#f7e7da";
-const RED = "#9B2915";
-const BLUE = "#0c496c";
+const root = document.documentElement;
+
+const WHITE = getComputedStyle(root).getPropertyValue('--white').trim();
+const BACKGROUND = getComputedStyle(root).getPropertyValue('--background').trim();
+const PRIMARY = getComputedStyle(root).getPropertyValue('--primary').trim();
+const RED = getComputedStyle(root).getPropertyValue('--red').trim();
 
 let ingredients = [];
 fetch("/static/ingredients.json")
@@ -120,14 +122,14 @@ function updateHighlightedIndex(x) {
     return;
   }
   if (x == 0) {
-    listElement.children[highlightedIndex].style.backgroundColor = BLUE;
+    listElement.children[highlightedIndex].style.backgroundColor = PRIMARY;
     listElement.children[highlightedIndex].style.color = WHITE;
     return;
   }
   listElement.children[highlightedIndex].style.backgroundColor = WHITE;
-  listElement.children[highlightedIndex].style.color = BLUE;
+  listElement.children[highlightedIndex].style.color = PRIMARY;
   highlightedIndex += x;
-  listElement.children[highlightedIndex].style.backgroundColor = BLUE;
+  listElement.children[highlightedIndex].style.backgroundColor = PRIMARY;
   listElement.children[highlightedIndex].style.color = WHITE;
 }
 
@@ -173,9 +175,9 @@ inputElement.addEventListener("keydown", function (e) {
 listElement.addEventListener("mouseover", function (event) {
   if (event.target && event.target.matches(".list-item")) {
     listElement.children[highlightedIndex].style.backgroundColor = WHITE;
-    listElement.children[highlightedIndex].style.color = BLUE;
+    listElement.children[highlightedIndex].style.color = PRIMARY;
 
-    event.target.style.backgroundColor = BLUE;
+    event.target.style.backgroundColor = PRIMARY;
     event.target.style.color = WHITE;
   }
 });
@@ -183,7 +185,7 @@ listElement.addEventListener("mouseover", function (event) {
 listElement.addEventListener("mouseout", function (event) {
   if (event.target && event.target.matches(".list-item")) {
     event.target.style.backgroundColor = WHITE;
-    event.target.style.color = BLUE;
+    event.target.style.color = PRIMARY;
   }
   updateHighlightedIndex(0);
 });
