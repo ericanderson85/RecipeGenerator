@@ -1,48 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recipe Generator</title>
-    <link rel="stylesheet" href="../static/styles.css">
-</head>
+    <link rel="stylesheet" href="../static/styles.css" />
+  </head>
 
-<body>
+  <body>
     <div class="header-container">
-        <header>
-                <div class="logo">
-                    <a class="header" href="/">Recipe Generator</a>
-                </div>
-                <nav>
-                    <a class="header" href="/">All Recipes</a>
-                    <a class="header" href="/">Search</a>
-                    <a class="header" href="/">Top Recipes</a>
-                </nav>
-                <div class="login">
-                    <a class="header" href="/login">Log In</a>
-                </div>
-        </header>
+      <header>
+        <div class="logo">
+          <a class="header" href="/">Recipe Generator</a>
+        </div>
+        <nav>
+          <a class="header" href="/">All Recipes</a>
+          <a class="header" href="/">Search</a>
+          <a class="header" href="/">Top Recipes</a>
+        </nav>
+        <div class="login">
+          <a class="header" href="/login">Log In</a>
+        </div>
+      </header>
     </div>
     <div class="header-border"></div>
 
     <a href="/"><h1 class="title">Search By Ingredients</h1></a>
     <div class="container">
-        <form id="form">
-            <div class="dropdown-container">
-                <input class="text-box" type="text" id="input" placeholder="Select ingredients . . ."
-                    autocomplete="off">
-                <ul class="autocomplete-list" id="ingredient-list"></ul>
-            </div>
-            <input class="search" id="search" type="button" value="Search" onclick="send_ingredients()">
-        </form>
+      <form id="form">
+        <div class="dropdown-container">
+          <input
+            class="text-box"
+            type="text"
+            id="input"
+            placeholder="Select ingredients . . ."
+            autocomplete="off"
+          />
+          <ul class="autocomplete-list" id="ingredient-list"></ul>
+        </div>
+        <input
+          class="search"
+          id="search"
+          type="button"
+          value="Search"
+          onclick="send_ingredients()"
+        />
+      </form>
     </div>
     <div class="ingredients" id="ingredients"></div>
 
-
-
-
     <script src="../static/script.js"></script>
-</body>
-
+  </body>
 </html>

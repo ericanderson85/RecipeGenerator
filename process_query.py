@@ -12,7 +12,7 @@ def recipes(ingredients):
         if count > 0:
             recipes_list.append(recipe)
 
-    recipes_list.sort(key=lambda x: len(set(x["Ingredients"]) & set(ingredients)), reverse=True)
-
+    recipes_list.sort(key=lambda x: len(
+        set(x["Ingredients"]) & set(ingredients)), reverse=True)
 
     return recipes_list[:12]

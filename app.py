@@ -17,21 +17,25 @@ class Users(UserMixin, db.Model):
     username = db.Column(db.String(250), unique=True, nullable=False)
     password = db.Column(db.String(250), nullable=False)
 
+
 db.init_app(app)
- 
+
 
 with app.app_context():
     db.create_all()
 
+
 @login_manager.user_loader
 def loader_user(user_id):
     return Users.query.get(user_id)
+
 
 # This method recieves the user input from the front end
 @app.route('/receive_ingredients', methods=['POST'])
 def receive_ingredients():
     recipe_list = recipes(request.json)
     return render_template('recipes.html', recipe_list=recipe_list)
+
 
 @app.route('/register', methods=["GET", "POST"])
 def register():
@@ -43,6 +47,7 @@ def register():
         return redirect(url_for("login"))
     return render_template("sign_up.html")
 
+
 @app.route("/login", methods=["GET", "POST"])
 def login():
     if request.method == "POST":
@@ -52,6 +57,7 @@ def login():
             login_user(user)
             return redirect(url_for("home"))
     return render_template("login.html")
+
 
 @app.route("/logout")
 @login_required

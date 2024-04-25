@@ -4,7 +4,8 @@ from bs4 import BeautifulSoup
 import unicodedata
 
 # Reference url for testing purposes
-#url = 'https://themodernproper.com/baked-salmon-with-grapefruit-salad'
+# url = 'https://themodernproper.com/baked-salmon-with-grapefruit-salad'
+
 
 def parse_recipe_name(page):
     # On this website the recipe name is an h1 element with an 'post-hero__title' class
@@ -21,7 +22,8 @@ def parse_ingredients(page):
     items = page.find('ul', class_='recipe-ingredients__list')
     if items:
         for item in items.find_all('li', class_='recipe-ingredients__item'):
-            ingredient = item.find('span', class_='recipe-ingredients__item--ingredient')
+            ingredient = item.find(
+                'span', class_='recipe-ingredients__item--ingredient')
             if ingredient:
                 ingredient_text = ingredient
                 ingredients_list.append(ingredient_text)
@@ -70,7 +72,7 @@ def parse_page(url):
     page = BeautifulSoup(html_content, 'html.parser')
     ingredients = parse_ingredients(page)
     recipe_name = parse_recipe_name(page)
-    print(recipe_name,ingredients,url)
+    print(recipe_name, ingredients, url)
     return [recipe_name, ingredients, url]
 
 

@@ -6,7 +6,8 @@ import unicodedata
 
 def parse_recipe_name(page):
     # On this website the recipe name is an h1 element with an 'article-heading' class
-    recipe_name = page.find('h2', class_='wprm-recipe-name wprm-block-text-uppercase')
+    recipe_name = page.find(
+        'h2', class_='wprm-recipe-name wprm-block-text-uppercase')
     return recipe_name.text
 
 

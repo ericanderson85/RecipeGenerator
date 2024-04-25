@@ -2,7 +2,8 @@ import json
 
 # Create a new recipe to add (( EDIT THESE ))
 NAME = "red velvet mug cake"
-INGREDIENTS = ["red velvet cake mix", "baking powder", "cold water", "chocolate chips"]
+INGREDIENTS = ["red velvet cake mix",
+               "baking powder", "cold water", "chocolate chips"]
 LINK = "https://www.food.com/recipe/red-velvet-mug-cake-527599"
 
 
