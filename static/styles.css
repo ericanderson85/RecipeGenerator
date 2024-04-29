@@ -2,8 +2,8 @@
 
 :root {
   --white: #fcfcfc; /* Off-white */
-  --background: #f7e7da; /* Color of the website background */
-  --primary: #0c496c; /* Primary text color of the website */
+  --background: #f3f6e0; /* Color of the website background */
+  --primary: #681b0d; /* Primary text color of the website */
   --red: #9b2915; /* Used for removing ingredients */
 }
 
@@ -218,10 +218,10 @@ nav {
 }
 
 .header-border {
-  height: 1px;
+  height: 4px;
   width: 100%;
   background-color: var(--primary);
-  opacity: 50%;
+  opacity: 70%;
 }
 
 .log-in-container {
