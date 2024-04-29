@@ -1,0 +1,25 @@
+{% extends 'base.html' %} {% block content %}
+<span class="results">Favorite recipes . . .</span>
+<div class="recipes-container">
+  {% for recipe in favorites %}
+  <a href="{{ recipe['Link'] }}" target="_blank">
+    <div class="recipe">
+      <img
+        src="../static/images/{{recipe['Name'].replace(' ', '-')}}.jpg"
+        width="300px"
+        height="150px"
+        rel="{{ recipe['Name'] }}"
+      />
+      <div class="text-container">
+        <h2 class="recipe-name">{{ recipe["Name"] }}</h2>
+        <p class="recipe-ingredients">
+          {% for i in range(recipe["Ingredients"] | length - 1) %} {{
+          recipe["Ingredients"][i] }}, {% endfor %} {{
+          recipe["Ingredients"][recipe["Ingredients"] | length - 1] }}
+        </p>
+      </div>
+    </div>
+  </a>
+  {% endfor %}
+</div>
+{% endblock %}

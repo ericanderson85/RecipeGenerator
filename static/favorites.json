@@ -1,0 +1,47 @@
+[
+  {
+    "Name": "Sugar Cookies",
+    "Ingredients": ["butter", "sugar", "flour"],
+    "Link": "https://bellyfull.net/easy-sugar-cookie-recipe/"
+  },
+  {
+    "Name": "Banana Nut Bread",
+    "Ingredients": [
+      "butter",
+      "flour",
+      "baking soda",
+      "baking powder",
+      "brown sugar",
+      "eggs",
+      "walnuts",
+      "bananas"
+    ],
+    "Link": "https://www.aheadofthyme.com/nutty-banana-bread/"
+  },
+  {
+    "Name": "Molten Lava Cakes",
+    "Ingredients": [
+      "butter",
+      "flour",
+      "powdered sugar",
+      "chocolate chips",
+      "vanilla extract",
+      "eggs"
+    ],
+    "Link": "https://www.aheadofthyme.com/2016/02/easy-molten-chocolate-lava-cakes/"
+  },
+  {
+    "Name": "Chocolate Chip Cookies",
+    "Ingredients": [
+      "butter",
+      "sugar",
+      "flour",
+      "baking soda",
+      "brown sugar",
+      "eggs",
+      "vanilla extract",
+      "chocolate chips"
+    ],
+    "Link": "https://www.delish.com/cooking/recipe-ideas/a50605/chocolate-chip-cookies-recipe/"
+  }
+]

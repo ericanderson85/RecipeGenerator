@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, url_for, redirect
 from process_query import recipes
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager, UserMixin, login_user, logout_user, login_required
+import json
 
 app = Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///db.sqlite"
@@ -69,6 +70,14 @@ def logout():
 @app.route("/")
 def home():
     return render_template("index.html")
+
+
+@app.route("/favorites")
+def favorites():
+    with open("static/favorites.json", "r") as file:
+        favorite_recipes = json.load(file)
+
+    return render_template("favorites.html", favorites=favorite_recipes)
 
 
 if __name__ == "__main__":
