@@ -1,10 +1,15 @@
 {% extends 'base.html' %} {% block content %}
-<h1>Create an account</h1>
-<form action="#" method="post">
-  <label for="username">Username:</label>
-  <input type="text" name="username" />
-  <label for="password">Password:</label>
-  <input type="password" name="password" />
-  <button type="submit">Submit</button>
-</form>
+<div class="log-in-container">
+  <h1>Register</h1>
+  <form class="log-in-form" action="#" method="post">
+    <label for="username">Username:</label>
+    <input type="text" name="username" />
+    <label for="password">Password:</label>
+    <input type="password" name="password" />
+    <button class="button" role="button" type="submit">Submit</button>
+  </form>
+
+  <h2>Have an account?</h2>
+  <a href="/login"><u>Log In</u></a>
+</div>
 {% endblock %}
