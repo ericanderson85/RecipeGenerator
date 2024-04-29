@@ -181,7 +181,7 @@ a {
 }
 
 .header-container {
-  margin: 12px;
+  margin: 0 12px;
 }
 
 header {
@@ -201,12 +201,12 @@ nav {
 }
 
 .header {
-  font-size: 1.125rem;
+  font-size: 1.25rem;
 }
 
 .logo {
-  max-width: 10rem;
-  height: auto;
+  width: auto;
+  height: 4rem;
   flex-grow: 1;
   text-align: left;
 }

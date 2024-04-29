@@ -1,7 +1,7 @@
 {% extends 'base.html' %} {% block content %}
-<span class="results">Developers' favorites . . .</span>
+<span class="results">All recipes . . .</span>
 <div class="recipes-container">
-  {% for recipe in favorites %}
+  {% for recipe in recipes %}
   <a href="{{ recipe['Link'] }}" target="_blank">
     <div class="recipe">
       <img

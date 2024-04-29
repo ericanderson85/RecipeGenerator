@@ -80,5 +80,13 @@ def favorites():
     return render_template("favorites.html", favorites=favorite_recipes)
 
 
+@app.route("/all")
+def all():
+    with open("static/recipes.json", "r") as file:
+        all_recipes = json.load(file)
+
+    return render_template("all_recipes.html", recipes=all_recipes)
+
+
 if __name__ == "__main__":
     app.run(debug=True)
