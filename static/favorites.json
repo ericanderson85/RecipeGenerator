@@ -43,5 +43,15 @@
       "chocolate chips"
     ],
     "Link": "https://www.delish.com/cooking/recipe-ideas/a50605/chocolate-chip-cookies-recipe/"
+  },
+  {
+    "Name": "Red Velvet Mug Cake",
+    "Ingredients": [
+        "red velvet cake mix",
+        "baking powder",
+        "water",
+        "chocolate chips"
+    ],
+    "Link": "https://www.food.com/recipe/red-velvet-mug-cake-527599"
   }
 ]
