@@ -53,5 +53,20 @@
         "chocolate chips"
     ],
     "Link": "https://www.food.com/recipe/red-velvet-mug-cake-527599"
+  },
+  {
+    "Name": "Crispy Roasted Chicken",
+    "Ingredients": [
+        "caraway seeds",
+        "dried sage",
+        "fennel seeds",
+        "coriander seeds",
+        "dried rosemary",
+        "paprika",
+        "all-purpose flour",
+        "onion powder",
+        "broiler-fryer chicken"
+    ],
+    "Link": "https://www.allrecipes.com/recipe/228363/crispy-roasted-chicken/"
   }
 ]

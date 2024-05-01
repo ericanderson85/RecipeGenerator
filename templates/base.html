@@ -22,7 +22,11 @@
           <a class="header" href="/favorites">Favorite Recipes</a>
         </nav>
         <div class="login">
+          {% if current_user.is_authenticated %}
+          <a class="header" href="/logout">Log out</a>
+          {% else %}
           <a class="header" href="/login">Log In</a>
+          {% endif %}
         </div>
       </header>
     </div>

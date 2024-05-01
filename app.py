@@ -3,6 +3,8 @@ from process_query import recipes
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager, UserMixin, login_user, logout_user, login_required
 import json
+from sqlalchemy.dialects.postgresql import JSON
+from sqlalchemy.ext.mutable import MutableDict
 
 app = Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///db.sqlite"
@@ -17,7 +19,7 @@ class Users(UserMixin, db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(250), unique=True, nullable=False)
     password = db.Column(db.String(250), nullable=False)
-
+    ingredients = db.Column(MutableDict.as_mutable(JSON))
 
 db.init_app(app)
 
